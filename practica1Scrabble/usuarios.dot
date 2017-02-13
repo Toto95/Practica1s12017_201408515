@@ -1,0 +1,11 @@
+digraph B{
+nodo798730300 -> nodo1408162670
+{rank = same; nodo798730300 nodo1408162670}
+nodo798730300[label="hola",style=filled, fillcolor="#FF4000"]
+nodo1408162670 -> nodo764986753
+{rank = same; nodo1408162670 nodo764986753}
+nodo1408162670[label="que ",style=filled, fillcolor="#FF4000"]
+nodo764986753 -> nodo798730300
+{rank = same; nodo764986753 nodo798730300}
+nodo764986753[label="hace",style=filled, fillcolor="#FF4000"]
+}

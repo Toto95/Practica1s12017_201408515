@@ -51,7 +51,7 @@ public class listaCircular {
         pw.println("}");
         pw.close();
         fw.close();
-        String[] cmd = {"dot", "-Tpng", "C:\\Users\\Ottoniel\\Documents\\NetBeansProjects\\practica1Scrabble\\usuarios.dot",">","C:\\Users\\Ottoniel\\Documents\\NetBeansProjects\\practica1Scrabble\\usuarios.png"};
+        String cmd = "cmd /c dot -Tpng usuarios.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\usuarios.png";
         Process child = Runtime.getRuntime().exec(cmd);
         
      }

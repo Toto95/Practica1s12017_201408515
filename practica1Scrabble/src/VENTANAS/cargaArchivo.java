@@ -44,7 +44,7 @@ public class cargaArchivo extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("JUGAR");
+        jButton2.setText("SIGUIENTE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -77,7 +77,8 @@ public class cargaArchivo extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
             
-            JFileChooser jf = new JFileChooser();
+        try {
+            /*JFileChooser jf = new JFileChooser();
             jf.showOpenDialog(this);
             
             try {
@@ -87,18 +88,22 @@ public class cargaArchivo extends javax.swing.JFrame {
             } catch (IOException ex) { 
             Logger.getLogger(cargaArchivo.class.getName()).log(Level.SEVERE, null, ex);
             }
-            
+            */
+            prueba.graficarCircular();
+        } catch (IOException ex) {
+            Logger.getLogger(cargaArchivo.class.getName()).log(Level.SEVERE, null, ex);
+        }
             
        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         
-        /*String nombre = JOptionPane.showInputDialog("Nombre");
+        String nombre = JOptionPane.showInputDialog("Nombre");
         nodoUsuario nuevo = new nodoUsuario(nombre);
-        prueba.agregarUsuario(nuevo);*/
-        principal p = new principal();
-        p.setVisible(true);
+        prueba.agregarUsuario(nuevo);
+       /* principal p = new principal();
+        p.setVisible(true);*/
         
     }//GEN-LAST:event_jButton2ActionPerformed
 

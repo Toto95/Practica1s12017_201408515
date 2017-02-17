@@ -3,10 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Ottoniel/Documents/GitHub/practica1Scrabble/practica1Scrabble/src/VENTANAS/principal.java</file>
-            <file>file:/C:/Users/Ottoniel/Documents/GitHub/practica1Scrabble/practica1Scrabble/src/practica1scrabble/Practica1Scrabble.java</file>
-            <file>file:/C:/Users/Ottoniel/Documents/GitHub/practica1Scrabble/practica1Scrabble/src/USUARIOS/nodoUsuario.java</file>
-            <file>file:/C:/Users/Ottoniel/Documents/GitHub/practica1Scrabble/practica1Scrabble/src/VENTANAS/cargaArchivo.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/USUARIOS/listaCircular.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/TABLERO/nodoCabeza.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/VENTANAS/cargaArchivo.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/OTROS/listaDiccionario.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/TABLERO/nodoTablero.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/TABLERO/tablero.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/TABLERO/listaCabezas.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/USUARIOS/listaSimple.java</file>
+            <file>file:/C:/Users/Ottoniel/Documents/GitHub/Practica1s12017_201408515/practica1Scrabble/src/TABLERO/listaAsociada.java</file>
         </group>
     </open-files>
 </project-private>

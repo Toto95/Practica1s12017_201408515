@@ -95,6 +95,7 @@ public class listaSimple {
            aux = aux.siguiente;
        }
        pw.println("}");
-       
+        String cmd = "cmd /c dot -Tpng fichas.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\fichasUsuario.png";
+        Process child = Runtime.getRuntime().exec(cmd);
    }
 }

@@ -1,0 +1,2702 @@
+digraph B{
+nodoc1f1[label="X=1 Y=1
+Puntos X 3",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f1 -> nodoc1f2
+nodoc1f1 -> nodoc2f1
+{rank = same; nodoc1f1 nodoc2f1}
+nodoc1f2[label="X=1 Y=2
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f2 -> nodoc1f1
+nodoc1f2 -> nodoc1f3
+nodoc1f2 -> nodoc2f2
+{rank = same; nodoc1f2 nodoc2f2}
+nodoc1f3[label="X=1 Y=3
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f3 -> nodoc1f2
+nodoc1f3 -> nodoc1f4
+nodoc1f3 -> nodoc2f3
+{rank = same; nodoc1f3 nodoc2f3}
+nodoc1f4[label="X=1 Y=4
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f4 -> nodoc1f3
+nodoc1f4 -> nodoc1f5
+nodoc1f4 -> nodoc2f4
+{rank = same; nodoc1f4 nodoc2f4}
+nodoc1f5[label="X=1 Y=5
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f5 -> nodoc1f4
+nodoc1f5 -> nodoc1f6
+nodoc1f5 -> nodoc2f5
+{rank = same; nodoc1f5 nodoc2f5}
+nodoc1f6[label="X=1 Y=6
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f6 -> nodoc1f5
+nodoc1f6 -> nodoc1f7
+nodoc1f6 -> nodoc2f6
+{rank = same; nodoc1f6 nodoc2f6}
+nodoc1f7[label="X=1 Y=7
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f7 -> nodoc1f6
+nodoc1f7 -> nodoc1f8
+nodoc1f7 -> nodoc2f7
+{rank = same; nodoc1f7 nodoc2f7}
+nodoc1f8[label="X=1 Y=8
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f8 -> nodoc1f7
+nodoc1f8 -> nodoc1f9
+nodoc1f8 -> nodoc2f8
+{rank = same; nodoc1f8 nodoc2f8}
+nodoc1f9[label="X=1 Y=9
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f9 -> nodoc1f8
+nodoc1f9 -> nodoc1f10
+nodoc1f9 -> nodoc2f9
+{rank = same; nodoc1f9 nodoc2f9}
+nodoc1f10[label="X=1 Y=10
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f10 -> nodoc1f9
+nodoc1f10 -> nodoc1f11
+nodoc1f10 -> nodoc2f10
+{rank = same; nodoc1f10 nodoc2f10}
+nodoc1f11[label="X=1 Y=11
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f11 -> nodoc1f10
+nodoc1f11 -> nodoc1f12
+nodoc1f11 -> nodoc2f11
+{rank = same; nodoc1f11 nodoc2f11}
+nodoc1f12[label="X=1 Y=12
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f12 -> nodoc1f11
+nodoc1f12 -> nodoc1f13
+nodoc1f12 -> nodoc2f12
+{rank = same; nodoc1f12 nodoc2f12}
+nodoc1f13[label="X=1 Y=13
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f13 -> nodoc1f12
+nodoc1f13 -> nodoc1f14
+nodoc1f13 -> nodoc2f13
+{rank = same; nodoc1f13 nodoc2f13}
+nodoc1f14[label="X=1 Y=14
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f14 -> nodoc1f13
+nodoc1f14 -> nodoc1f15
+nodoc1f14 -> nodoc2f14
+{rank = same; nodoc1f14 nodoc2f14}
+nodoc1f15[label="X=1 Y=15
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f15 -> nodoc1f14
+nodoc1f15 -> nodoc1f16
+nodoc1f15 -> nodoc2f15
+{rank = same; nodoc1f15 nodoc2f15}
+nodoc1f16[label="X=1 Y=16
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f16 -> nodoc1f15
+nodoc1f16 -> nodoc1f17
+nodoc1f16 -> nodoc2f16
+{rank = same; nodoc1f16 nodoc2f16}
+nodoc1f17[label="X=1 Y=17
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f17 -> nodoc1f16
+nodoc1f17 -> nodoc1f18
+nodoc1f17 -> nodoc2f17
+{rank = same; nodoc1f17 nodoc2f17}
+nodoc1f18[label="X=1 Y=18
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f18 -> nodoc1f17
+nodoc1f18 -> nodoc1f19
+nodoc1f18 -> nodoc2f18
+{rank = same; nodoc1f18 nodoc2f18}
+nodoc1f19[label="X=1 Y=19
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f19 -> nodoc1f18
+nodoc1f19 -> nodoc1f20
+nodoc1f19 -> nodoc2f19
+{rank = same; nodoc1f19 nodoc2f19}
+nodoc1f20[label="X=1 Y=20
+",style=filled, fillcolor="#FF4000", group = r1]
+nodoc1f20 -> nodoc1f19
+nodoc1f20 -> nodoc2f20
+{rank = same; nodoc1f20 nodoc2f20}
+nodoc2f1[label="X=2 Y=1
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f1 -> nodoc2f2
+nodoc2f1 -> nodoc1f1
+nodoc2f1 -> nodoc3f1
+{rank = same; nodoc2f1 nodoc3f1}
+nodoc2f2[label="X=2 Y=2
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f2 -> nodoc2f1
+nodoc2f2 -> nodoc2f3
+nodoc2f2 -> nodoc1f2
+nodoc2f2 -> nodoc3f2
+{rank = same; nodoc2f2 nodoc3f2}
+nodoc2f3[label="X=2 Y=3
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f3 -> nodoc2f2
+nodoc2f3 -> nodoc2f4
+nodoc2f3 -> nodoc1f3
+nodoc2f3 -> nodoc3f3
+{rank = same; nodoc2f3 nodoc3f3}
+nodoc2f4[label="X=2 Y=4
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f4 -> nodoc2f3
+nodoc2f4 -> nodoc2f5
+nodoc2f4 -> nodoc1f4
+nodoc2f4 -> nodoc3f4
+{rank = same; nodoc2f4 nodoc3f4}
+nodoc2f5[label="X=2 Y=5
+Puntos X 2",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f5 -> nodoc2f4
+nodoc2f5 -> nodoc2f6
+nodoc2f5 -> nodoc1f5
+nodoc2f5 -> nodoc3f5
+{rank = same; nodoc2f5 nodoc3f5}
+nodoc2f6[label="X=2 Y=6
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f6 -> nodoc2f5
+nodoc2f6 -> nodoc2f7
+nodoc2f6 -> nodoc1f6
+nodoc2f6 -> nodoc3f6
+{rank = same; nodoc2f6 nodoc3f6}
+nodoc2f7[label="X=2 Y=7
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f7 -> nodoc2f6
+nodoc2f7 -> nodoc2f8
+nodoc2f7 -> nodoc1f7
+nodoc2f7 -> nodoc3f7
+{rank = same; nodoc2f7 nodoc3f7}
+nodoc2f8[label="X=2 Y=8
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f8 -> nodoc2f7
+nodoc2f8 -> nodoc2f9
+nodoc2f8 -> nodoc1f8
+nodoc2f8 -> nodoc3f8
+{rank = same; nodoc2f8 nodoc3f8}
+nodoc2f9[label="X=2 Y=9
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f9 -> nodoc2f8
+nodoc2f9 -> nodoc2f10
+nodoc2f9 -> nodoc1f9
+nodoc2f9 -> nodoc3f9
+{rank = same; nodoc2f9 nodoc3f9}
+nodoc2f10[label="X=2 Y=10
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f10 -> nodoc2f9
+nodoc2f10 -> nodoc2f11
+nodoc2f10 -> nodoc1f10
+nodoc2f10 -> nodoc3f10
+{rank = same; nodoc2f10 nodoc3f10}
+nodoc2f11[label="X=2 Y=11
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f11 -> nodoc2f10
+nodoc2f11 -> nodoc2f12
+nodoc2f11 -> nodoc1f11
+nodoc2f11 -> nodoc3f11
+{rank = same; nodoc2f11 nodoc3f11}
+nodoc2f12[label="X=2 Y=12
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f12 -> nodoc2f11
+nodoc2f12 -> nodoc2f13
+nodoc2f12 -> nodoc1f12
+nodoc2f12 -> nodoc3f12
+{rank = same; nodoc2f12 nodoc3f12}
+nodoc2f13[label="X=2 Y=13
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f13 -> nodoc2f12
+nodoc2f13 -> nodoc2f14
+nodoc2f13 -> nodoc1f13
+nodoc2f13 -> nodoc3f13
+{rank = same; nodoc2f13 nodoc3f13}
+nodoc2f14[label="X=2 Y=14
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f14 -> nodoc2f13
+nodoc2f14 -> nodoc2f15
+nodoc2f14 -> nodoc1f14
+nodoc2f14 -> nodoc3f14
+{rank = same; nodoc2f14 nodoc3f14}
+nodoc2f15[label="X=2 Y=15
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f15 -> nodoc2f14
+nodoc2f15 -> nodoc2f16
+nodoc2f15 -> nodoc1f15
+nodoc2f15 -> nodoc3f15
+{rank = same; nodoc2f15 nodoc3f15}
+nodoc2f16[label="X=2 Y=16
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f16 -> nodoc2f15
+nodoc2f16 -> nodoc2f17
+nodoc2f16 -> nodoc1f16
+nodoc2f16 -> nodoc3f16
+{rank = same; nodoc2f16 nodoc3f16}
+nodoc2f17[label="X=2 Y=17
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f17 -> nodoc2f16
+nodoc2f17 -> nodoc2f18
+nodoc2f17 -> nodoc1f17
+nodoc2f17 -> nodoc3f17
+{rank = same; nodoc2f17 nodoc3f17}
+nodoc2f18[label="X=2 Y=18
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f18 -> nodoc2f17
+nodoc2f18 -> nodoc2f19
+nodoc2f18 -> nodoc1f18
+nodoc2f18 -> nodoc3f18
+{rank = same; nodoc2f18 nodoc3f18}
+nodoc2f19[label="X=2 Y=19
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f19 -> nodoc2f18
+nodoc2f19 -> nodoc2f20
+nodoc2f19 -> nodoc1f19
+nodoc2f19 -> nodoc3f19
+{rank = same; nodoc2f19 nodoc3f19}
+nodoc2f20[label="X=2 Y=20
+",style=filled, fillcolor="#FF4000", group = r2]
+nodoc2f20 -> nodoc2f19
+nodoc2f20 -> nodoc1f20
+nodoc2f20 -> nodoc3f20
+{rank = same; nodoc2f20 nodoc3f20}
+nodoc3f1[label="X=3 Y=1
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f1 -> nodoc3f2
+nodoc3f1 -> nodoc2f1
+nodoc3f1 -> nodoc4f1
+{rank = same; nodoc3f1 nodoc4f1}
+nodoc3f2[label="X=3 Y=2
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f2 -> nodoc3f1
+nodoc3f2 -> nodoc3f3
+nodoc3f2 -> nodoc2f2
+nodoc3f2 -> nodoc4f2
+{rank = same; nodoc3f2 nodoc4f2}
+nodoc3f3[label="X=3 Y=3
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f3 -> nodoc3f2
+nodoc3f3 -> nodoc3f4
+nodoc3f3 -> nodoc2f3
+nodoc3f3 -> nodoc4f3
+{rank = same; nodoc3f3 nodoc4f3}
+nodoc3f4[label="X=3 Y=4
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f4 -> nodoc3f3
+nodoc3f4 -> nodoc3f5
+nodoc3f4 -> nodoc2f4
+nodoc3f4 -> nodoc4f4
+{rank = same; nodoc3f4 nodoc4f4}
+nodoc3f5[label="X=3 Y=5
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f5 -> nodoc3f4
+nodoc3f5 -> nodoc3f6
+nodoc3f5 -> nodoc2f5
+nodoc3f5 -> nodoc4f5
+{rank = same; nodoc3f5 nodoc4f5}
+nodoc3f6[label="X=3 Y=6
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f6 -> nodoc3f5
+nodoc3f6 -> nodoc3f7
+nodoc3f6 -> nodoc2f6
+nodoc3f6 -> nodoc4f6
+{rank = same; nodoc3f6 nodoc4f6}
+nodoc3f7[label="X=3 Y=7
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f7 -> nodoc3f6
+nodoc3f7 -> nodoc3f8
+nodoc3f7 -> nodoc2f7
+nodoc3f7 -> nodoc4f7
+{rank = same; nodoc3f7 nodoc4f7}
+nodoc3f8[label="X=3 Y=8
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f8 -> nodoc3f7
+nodoc3f8 -> nodoc3f9
+nodoc3f8 -> nodoc2f8
+nodoc3f8 -> nodoc4f8
+{rank = same; nodoc3f8 nodoc4f8}
+nodoc3f9[label="X=3 Y=9
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f9 -> nodoc3f8
+nodoc3f9 -> nodoc3f10
+nodoc3f9 -> nodoc2f9
+nodoc3f9 -> nodoc4f9
+{rank = same; nodoc3f9 nodoc4f9}
+nodoc3f10[label="X=3 Y=10
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f10 -> nodoc3f9
+nodoc3f10 -> nodoc3f11
+nodoc3f10 -> nodoc2f10
+nodoc3f10 -> nodoc4f10
+{rank = same; nodoc3f10 nodoc4f10}
+nodoc3f11[label="X=3 Y=11
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f11 -> nodoc3f10
+nodoc3f11 -> nodoc3f12
+nodoc3f11 -> nodoc2f11
+nodoc3f11 -> nodoc4f11
+{rank = same; nodoc3f11 nodoc4f11}
+nodoc3f12[label="X=3 Y=12
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f12 -> nodoc3f11
+nodoc3f12 -> nodoc3f13
+nodoc3f12 -> nodoc2f12
+nodoc3f12 -> nodoc4f12
+{rank = same; nodoc3f12 nodoc4f12}
+nodoc3f13[label="X=3 Y=13
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f13 -> nodoc3f12
+nodoc3f13 -> nodoc3f14
+nodoc3f13 -> nodoc2f13
+nodoc3f13 -> nodoc4f13
+{rank = same; nodoc3f13 nodoc4f13}
+nodoc3f14[label="X=3 Y=14
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f14 -> nodoc3f13
+nodoc3f14 -> nodoc3f15
+nodoc3f14 -> nodoc2f14
+nodoc3f14 -> nodoc4f14
+{rank = same; nodoc3f14 nodoc4f14}
+nodoc3f15[label="X=3 Y=15
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f15 -> nodoc3f14
+nodoc3f15 -> nodoc3f16
+nodoc3f15 -> nodoc2f15
+nodoc3f15 -> nodoc4f15
+{rank = same; nodoc3f15 nodoc4f15}
+nodoc3f16[label="X=3 Y=16
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f16 -> nodoc3f15
+nodoc3f16 -> nodoc3f17
+nodoc3f16 -> nodoc2f16
+nodoc3f16 -> nodoc4f16
+{rank = same; nodoc3f16 nodoc4f16}
+nodoc3f17[label="X=3 Y=17
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f17 -> nodoc3f16
+nodoc3f17 -> nodoc3f18
+nodoc3f17 -> nodoc2f17
+nodoc3f17 -> nodoc4f17
+{rank = same; nodoc3f17 nodoc4f17}
+nodoc3f18[label="X=3 Y=18
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f18 -> nodoc3f17
+nodoc3f18 -> nodoc3f19
+nodoc3f18 -> nodoc2f18
+nodoc3f18 -> nodoc4f18
+{rank = same; nodoc3f18 nodoc4f18}
+nodoc3f19[label="X=3 Y=19
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f19 -> nodoc3f18
+nodoc3f19 -> nodoc3f20
+nodoc3f19 -> nodoc2f19
+nodoc3f19 -> nodoc4f19
+{rank = same; nodoc3f19 nodoc4f19}
+nodoc3f20[label="X=3 Y=20
+",style=filled, fillcolor="#FF4000", group = r3]
+nodoc3f20 -> nodoc3f19
+nodoc3f20 -> nodoc2f20
+nodoc3f20 -> nodoc4f20
+{rank = same; nodoc3f20 nodoc4f20}
+nodoc4f1[label="X=4 Y=1
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f1 -> nodoc4f2
+nodoc4f1 -> nodoc3f1
+nodoc4f1 -> nodoc5f1
+{rank = same; nodoc4f1 nodoc5f1}
+nodoc4f2[label="X=4 Y=2
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f2 -> nodoc4f1
+nodoc4f2 -> nodoc4f3
+nodoc4f2 -> nodoc3f2
+nodoc4f2 -> nodoc5f2
+{rank = same; nodoc4f2 nodoc5f2}
+nodoc4f3[label="X=4 Y=3
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f3 -> nodoc4f2
+nodoc4f3 -> nodoc4f4
+nodoc4f3 -> nodoc3f3
+nodoc4f3 -> nodoc5f3
+{rank = same; nodoc4f3 nodoc5f3}
+nodoc4f4[label="X=4 Y=4
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f4 -> nodoc4f3
+nodoc4f4 -> nodoc4f5
+nodoc4f4 -> nodoc3f4
+nodoc4f4 -> nodoc5f4
+{rank = same; nodoc4f4 nodoc5f4}
+nodoc4f5[label="X=4 Y=5
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f5 -> nodoc4f4
+nodoc4f5 -> nodoc4f6
+nodoc4f5 -> nodoc3f5
+nodoc4f5 -> nodoc5f5
+{rank = same; nodoc4f5 nodoc5f5}
+nodoc4f6[label="X=4 Y=6
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f6 -> nodoc4f5
+nodoc4f6 -> nodoc4f7
+nodoc4f6 -> nodoc3f6
+nodoc4f6 -> nodoc5f6
+{rank = same; nodoc4f6 nodoc5f6}
+nodoc4f7[label="X=4 Y=7
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f7 -> nodoc4f6
+nodoc4f7 -> nodoc4f8
+nodoc4f7 -> nodoc3f7
+nodoc4f7 -> nodoc5f7
+{rank = same; nodoc4f7 nodoc5f7}
+nodoc4f8[label="X=4 Y=8
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f8 -> nodoc4f7
+nodoc4f8 -> nodoc4f9
+nodoc4f8 -> nodoc3f8
+nodoc4f8 -> nodoc5f8
+{rank = same; nodoc4f8 nodoc5f8}
+nodoc4f9[label="X=4 Y=9
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f9 -> nodoc4f8
+nodoc4f9 -> nodoc4f10
+nodoc4f9 -> nodoc3f9
+nodoc4f9 -> nodoc5f9
+{rank = same; nodoc4f9 nodoc5f9}
+nodoc4f10[label="X=4 Y=10
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f10 -> nodoc4f9
+nodoc4f10 -> nodoc4f11
+nodoc4f10 -> nodoc3f10
+nodoc4f10 -> nodoc5f10
+{rank = same; nodoc4f10 nodoc5f10}
+nodoc4f11[label="X=4 Y=11
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f11 -> nodoc4f10
+nodoc4f11 -> nodoc4f12
+nodoc4f11 -> nodoc3f11
+nodoc4f11 -> nodoc5f11
+{rank = same; nodoc4f11 nodoc5f11}
+nodoc4f12[label="X=4 Y=12
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f12 -> nodoc4f11
+nodoc4f12 -> nodoc4f13
+nodoc4f12 -> nodoc3f12
+nodoc4f12 -> nodoc5f12
+{rank = same; nodoc4f12 nodoc5f12}
+nodoc4f13[label="X=4 Y=13
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f13 -> nodoc4f12
+nodoc4f13 -> nodoc4f14
+nodoc4f13 -> nodoc3f13
+nodoc4f13 -> nodoc5f13
+{rank = same; nodoc4f13 nodoc5f13}
+nodoc4f14[label="X=4 Y=14
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f14 -> nodoc4f13
+nodoc4f14 -> nodoc4f15
+nodoc4f14 -> nodoc3f14
+nodoc4f14 -> nodoc5f14
+{rank = same; nodoc4f14 nodoc5f14}
+nodoc4f15[label="X=4 Y=15
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f15 -> nodoc4f14
+nodoc4f15 -> nodoc4f16
+nodoc4f15 -> nodoc3f15
+nodoc4f15 -> nodoc5f15
+{rank = same; nodoc4f15 nodoc5f15}
+nodoc4f16[label="X=4 Y=16
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f16 -> nodoc4f15
+nodoc4f16 -> nodoc4f17
+nodoc4f16 -> nodoc3f16
+nodoc4f16 -> nodoc5f16
+{rank = same; nodoc4f16 nodoc5f16}
+nodoc4f17[label="X=4 Y=17
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f17 -> nodoc4f16
+nodoc4f17 -> nodoc4f18
+nodoc4f17 -> nodoc3f17
+nodoc4f17 -> nodoc5f17
+{rank = same; nodoc4f17 nodoc5f17}
+nodoc4f18[label="X=4 Y=18
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f18 -> nodoc4f17
+nodoc4f18 -> nodoc4f19
+nodoc4f18 -> nodoc3f18
+nodoc4f18 -> nodoc5f18
+{rank = same; nodoc4f18 nodoc5f18}
+nodoc4f19[label="X=4 Y=19
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f19 -> nodoc4f18
+nodoc4f19 -> nodoc4f20
+nodoc4f19 -> nodoc3f19
+nodoc4f19 -> nodoc5f19
+{rank = same; nodoc4f19 nodoc5f19}
+nodoc4f20[label="X=4 Y=20
+",style=filled, fillcolor="#FF4000", group = r4]
+nodoc4f20 -> nodoc4f19
+nodoc4f20 -> nodoc3f20
+nodoc4f20 -> nodoc5f20
+{rank = same; nodoc4f20 nodoc5f20}
+nodoc5f1[label="X=5 Y=1
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f1 -> nodoc5f2
+nodoc5f1 -> nodoc4f1
+nodoc5f1 -> nodoc6f1
+{rank = same; nodoc5f1 nodoc6f1}
+nodoc5f2[label="X=5 Y=2
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f2 -> nodoc5f1
+nodoc5f2 -> nodoc5f3
+nodoc5f2 -> nodoc4f2
+nodoc5f2 -> nodoc6f2
+{rank = same; nodoc5f2 nodoc6f2}
+nodoc5f3[label="X=5 Y=3
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f3 -> nodoc5f2
+nodoc5f3 -> nodoc5f4
+nodoc5f3 -> nodoc4f3
+nodoc5f3 -> nodoc6f3
+{rank = same; nodoc5f3 nodoc6f3}
+nodoc5f4[label="X=5 Y=4
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f4 -> nodoc5f3
+nodoc5f4 -> nodoc5f5
+nodoc5f4 -> nodoc4f4
+nodoc5f4 -> nodoc6f4
+{rank = same; nodoc5f4 nodoc6f4}
+nodoc5f5[label="X=5 Y=5
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f5 -> nodoc5f4
+nodoc5f5 -> nodoc5f6
+nodoc5f5 -> nodoc4f5
+nodoc5f5 -> nodoc6f5
+{rank = same; nodoc5f5 nodoc6f5}
+nodoc5f6[label="X=5 Y=6
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f6 -> nodoc5f5
+nodoc5f6 -> nodoc5f7
+nodoc5f6 -> nodoc4f6
+nodoc5f6 -> nodoc6f6
+{rank = same; nodoc5f6 nodoc6f6}
+nodoc5f7[label="X=5 Y=7
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f7 -> nodoc5f6
+nodoc5f7 -> nodoc5f8
+nodoc5f7 -> nodoc4f7
+nodoc5f7 -> nodoc6f7
+{rank = same; nodoc5f7 nodoc6f7}
+nodoc5f8[label="X=5 Y=8
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f8 -> nodoc5f7
+nodoc5f8 -> nodoc5f9
+nodoc5f8 -> nodoc4f8
+nodoc5f8 -> nodoc6f8
+{rank = same; nodoc5f8 nodoc6f8}
+nodoc5f9[label="X=5 Y=9
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f9 -> nodoc5f8
+nodoc5f9 -> nodoc5f10
+nodoc5f9 -> nodoc4f9
+nodoc5f9 -> nodoc6f9
+{rank = same; nodoc5f9 nodoc6f9}
+nodoc5f10[label="X=5 Y=10
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f10 -> nodoc5f9
+nodoc5f10 -> nodoc5f11
+nodoc5f10 -> nodoc4f10
+nodoc5f10 -> nodoc6f10
+{rank = same; nodoc5f10 nodoc6f10}
+nodoc5f11[label="X=5 Y=11
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f11 -> nodoc5f10
+nodoc5f11 -> nodoc5f12
+nodoc5f11 -> nodoc4f11
+nodoc5f11 -> nodoc6f11
+{rank = same; nodoc5f11 nodoc6f11}
+nodoc5f12[label="X=5 Y=12
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f12 -> nodoc5f11
+nodoc5f12 -> nodoc5f13
+nodoc5f12 -> nodoc4f12
+nodoc5f12 -> nodoc6f12
+{rank = same; nodoc5f12 nodoc6f12}
+nodoc5f13[label="X=5 Y=13
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f13 -> nodoc5f12
+nodoc5f13 -> nodoc5f14
+nodoc5f13 -> nodoc4f13
+nodoc5f13 -> nodoc6f13
+{rank = same; nodoc5f13 nodoc6f13}
+nodoc5f14[label="X=5 Y=14
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f14 -> nodoc5f13
+nodoc5f14 -> nodoc5f15
+nodoc5f14 -> nodoc4f14
+nodoc5f14 -> nodoc6f14
+{rank = same; nodoc5f14 nodoc6f14}
+nodoc5f15[label="X=5 Y=15
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f15 -> nodoc5f14
+nodoc5f15 -> nodoc5f16
+nodoc5f15 -> nodoc4f15
+nodoc5f15 -> nodoc6f15
+{rank = same; nodoc5f15 nodoc6f15}
+nodoc5f16[label="X=5 Y=16
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f16 -> nodoc5f15
+nodoc5f16 -> nodoc5f17
+nodoc5f16 -> nodoc4f16
+nodoc5f16 -> nodoc6f16
+{rank = same; nodoc5f16 nodoc6f16}
+nodoc5f17[label="X=5 Y=17
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f17 -> nodoc5f16
+nodoc5f17 -> nodoc5f18
+nodoc5f17 -> nodoc4f17
+nodoc5f17 -> nodoc6f17
+{rank = same; nodoc5f17 nodoc6f17}
+nodoc5f18[label="X=5 Y=18
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f18 -> nodoc5f17
+nodoc5f18 -> nodoc5f19
+nodoc5f18 -> nodoc4f18
+nodoc5f18 -> nodoc6f18
+{rank = same; nodoc5f18 nodoc6f18}
+nodoc5f19[label="X=5 Y=19
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f19 -> nodoc5f18
+nodoc5f19 -> nodoc5f20
+nodoc5f19 -> nodoc4f19
+nodoc5f19 -> nodoc6f19
+{rank = same; nodoc5f19 nodoc6f19}
+nodoc5f20[label="X=5 Y=20
+",style=filled, fillcolor="#FF4000", group = r5]
+nodoc5f20 -> nodoc5f19
+nodoc5f20 -> nodoc4f20
+nodoc5f20 -> nodoc6f20
+{rank = same; nodoc5f20 nodoc6f20}
+nodoc6f1[label="X=6 Y=1
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f1 -> nodoc6f2
+nodoc6f1 -> nodoc5f1
+nodoc6f1 -> nodoc7f1
+{rank = same; nodoc6f1 nodoc7f1}
+nodoc6f2[label="X=6 Y=2
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f2 -> nodoc6f1
+nodoc6f2 -> nodoc6f3
+nodoc6f2 -> nodoc5f2
+nodoc6f2 -> nodoc7f2
+{rank = same; nodoc6f2 nodoc7f2}
+nodoc6f3[label="X=6 Y=3
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f3 -> nodoc6f2
+nodoc6f3 -> nodoc6f4
+nodoc6f3 -> nodoc5f3
+nodoc6f3 -> nodoc7f3
+{rank = same; nodoc6f3 nodoc7f3}
+nodoc6f4[label="X=6 Y=4
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f4 -> nodoc6f3
+nodoc6f4 -> nodoc6f5
+nodoc6f4 -> nodoc5f4
+nodoc6f4 -> nodoc7f4
+{rank = same; nodoc6f4 nodoc7f4}
+nodoc6f5[label="X=6 Y=5
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f5 -> nodoc6f4
+nodoc6f5 -> nodoc6f6
+nodoc6f5 -> nodoc5f5
+nodoc6f5 -> nodoc7f5
+{rank = same; nodoc6f5 nodoc7f5}
+nodoc6f6[label="X=6 Y=6
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f6 -> nodoc6f5
+nodoc6f6 -> nodoc6f7
+nodoc6f6 -> nodoc5f6
+nodoc6f6 -> nodoc7f6
+{rank = same; nodoc6f6 nodoc7f6}
+nodoc6f7[label="X=6 Y=7
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f7 -> nodoc6f6
+nodoc6f7 -> nodoc6f8
+nodoc6f7 -> nodoc5f7
+nodoc6f7 -> nodoc7f7
+{rank = same; nodoc6f7 nodoc7f7}
+nodoc6f8[label="X=6 Y=8
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f8 -> nodoc6f7
+nodoc6f8 -> nodoc6f9
+nodoc6f8 -> nodoc5f8
+nodoc6f8 -> nodoc7f8
+{rank = same; nodoc6f8 nodoc7f8}
+nodoc6f9[label="X=6 Y=9
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f9 -> nodoc6f8
+nodoc6f9 -> nodoc6f10
+nodoc6f9 -> nodoc5f9
+nodoc6f9 -> nodoc7f9
+{rank = same; nodoc6f9 nodoc7f9}
+nodoc6f10[label="X=6 Y=10
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f10 -> nodoc6f9
+nodoc6f10 -> nodoc6f11
+nodoc6f10 -> nodoc5f10
+nodoc6f10 -> nodoc7f10
+{rank = same; nodoc6f10 nodoc7f10}
+nodoc6f11[label="X=6 Y=11
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f11 -> nodoc6f10
+nodoc6f11 -> nodoc6f12
+nodoc6f11 -> nodoc5f11
+nodoc6f11 -> nodoc7f11
+{rank = same; nodoc6f11 nodoc7f11}
+nodoc6f12[label="X=6 Y=12
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f12 -> nodoc6f11
+nodoc6f12 -> nodoc6f13
+nodoc6f12 -> nodoc5f12
+nodoc6f12 -> nodoc7f12
+{rank = same; nodoc6f12 nodoc7f12}
+nodoc6f13[label="X=6 Y=13
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f13 -> nodoc6f12
+nodoc6f13 -> nodoc6f14
+nodoc6f13 -> nodoc5f13
+nodoc6f13 -> nodoc7f13
+{rank = same; nodoc6f13 nodoc7f13}
+nodoc6f14[label="X=6 Y=14
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f14 -> nodoc6f13
+nodoc6f14 -> nodoc6f15
+nodoc6f14 -> nodoc5f14
+nodoc6f14 -> nodoc7f14
+{rank = same; nodoc6f14 nodoc7f14}
+nodoc6f15[label="X=6 Y=15
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f15 -> nodoc6f14
+nodoc6f15 -> nodoc6f16
+nodoc6f15 -> nodoc5f15
+nodoc6f15 -> nodoc7f15
+{rank = same; nodoc6f15 nodoc7f15}
+nodoc6f16[label="X=6 Y=16
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f16 -> nodoc6f15
+nodoc6f16 -> nodoc6f17
+nodoc6f16 -> nodoc5f16
+nodoc6f16 -> nodoc7f16
+{rank = same; nodoc6f16 nodoc7f16}
+nodoc6f17[label="X=6 Y=17
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f17 -> nodoc6f16
+nodoc6f17 -> nodoc6f18
+nodoc6f17 -> nodoc5f17
+nodoc6f17 -> nodoc7f17
+{rank = same; nodoc6f17 nodoc7f17}
+nodoc6f18[label="X=6 Y=18
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f18 -> nodoc6f17
+nodoc6f18 -> nodoc6f19
+nodoc6f18 -> nodoc5f18
+nodoc6f18 -> nodoc7f18
+{rank = same; nodoc6f18 nodoc7f18}
+nodoc6f19[label="X=6 Y=19
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f19 -> nodoc6f18
+nodoc6f19 -> nodoc6f20
+nodoc6f19 -> nodoc5f19
+nodoc6f19 -> nodoc7f19
+{rank = same; nodoc6f19 nodoc7f19}
+nodoc6f20[label="X=6 Y=20
+",style=filled, fillcolor="#FF4000", group = r6]
+nodoc6f20 -> nodoc6f19
+nodoc6f20 -> nodoc5f20
+nodoc6f20 -> nodoc7f20
+{rank = same; nodoc6f20 nodoc7f20}
+nodoc7f1[label="X=7 Y=1
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f1 -> nodoc7f2
+nodoc7f1 -> nodoc6f1
+nodoc7f1 -> nodoc8f1
+{rank = same; nodoc7f1 nodoc8f1}
+nodoc7f2[label="X=7 Y=2
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f2 -> nodoc7f1
+nodoc7f2 -> nodoc7f3
+nodoc7f2 -> nodoc6f2
+nodoc7f2 -> nodoc8f2
+{rank = same; nodoc7f2 nodoc8f2}
+nodoc7f3[label="X=7 Y=3
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f3 -> nodoc7f2
+nodoc7f3 -> nodoc7f4
+nodoc7f3 -> nodoc6f3
+nodoc7f3 -> nodoc8f3
+{rank = same; nodoc7f3 nodoc8f3}
+nodoc7f4[label="X=7 Y=4
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f4 -> nodoc7f3
+nodoc7f4 -> nodoc7f5
+nodoc7f4 -> nodoc6f4
+nodoc7f4 -> nodoc8f4
+{rank = same; nodoc7f4 nodoc8f4}
+nodoc7f5[label="X=7 Y=5
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f5 -> nodoc7f4
+nodoc7f5 -> nodoc7f6
+nodoc7f5 -> nodoc6f5
+nodoc7f5 -> nodoc8f5
+{rank = same; nodoc7f5 nodoc8f5}
+nodoc7f6[label="X=7 Y=6
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f6 -> nodoc7f5
+nodoc7f6 -> nodoc7f7
+nodoc7f6 -> nodoc6f6
+nodoc7f6 -> nodoc8f6
+{rank = same; nodoc7f6 nodoc8f6}
+nodoc7f7[label="X=7 Y=7
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f7 -> nodoc7f6
+nodoc7f7 -> nodoc7f8
+nodoc7f7 -> nodoc6f7
+nodoc7f7 -> nodoc8f7
+{rank = same; nodoc7f7 nodoc8f7}
+nodoc7f8[label="X=7 Y=8
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f8 -> nodoc7f7
+nodoc7f8 -> nodoc7f9
+nodoc7f8 -> nodoc6f8
+nodoc7f8 -> nodoc8f8
+{rank = same; nodoc7f8 nodoc8f8}
+nodoc7f9[label="X=7 Y=9
+Puntos X 2",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f9 -> nodoc7f8
+nodoc7f9 -> nodoc7f10
+nodoc7f9 -> nodoc6f9
+nodoc7f9 -> nodoc8f9
+{rank = same; nodoc7f9 nodoc8f9}
+nodoc7f10[label="X=7 Y=10
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f10 -> nodoc7f9
+nodoc7f10 -> nodoc7f11
+nodoc7f10 -> nodoc6f10
+nodoc7f10 -> nodoc8f10
+{rank = same; nodoc7f10 nodoc8f10}
+nodoc7f11[label="X=7 Y=11
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f11 -> nodoc7f10
+nodoc7f11 -> nodoc7f12
+nodoc7f11 -> nodoc6f11
+nodoc7f11 -> nodoc8f11
+{rank = same; nodoc7f11 nodoc8f11}
+nodoc7f12[label="X=7 Y=12
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f12 -> nodoc7f11
+nodoc7f12 -> nodoc7f13
+nodoc7f12 -> nodoc6f12
+nodoc7f12 -> nodoc8f12
+{rank = same; nodoc7f12 nodoc8f12}
+nodoc7f13[label="X=7 Y=13
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f13 -> nodoc7f12
+nodoc7f13 -> nodoc7f14
+nodoc7f13 -> nodoc6f13
+nodoc7f13 -> nodoc8f13
+{rank = same; nodoc7f13 nodoc8f13}
+nodoc7f14[label="X=7 Y=14
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f14 -> nodoc7f13
+nodoc7f14 -> nodoc7f15
+nodoc7f14 -> nodoc6f14
+nodoc7f14 -> nodoc8f14
+{rank = same; nodoc7f14 nodoc8f14}
+nodoc7f15[label="X=7 Y=15
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f15 -> nodoc7f14
+nodoc7f15 -> nodoc7f16
+nodoc7f15 -> nodoc6f15
+nodoc7f15 -> nodoc8f15
+{rank = same; nodoc7f15 nodoc8f15}
+nodoc7f16[label="X=7 Y=16
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f16 -> nodoc7f15
+nodoc7f16 -> nodoc7f17
+nodoc7f16 -> nodoc6f16
+nodoc7f16 -> nodoc8f16
+{rank = same; nodoc7f16 nodoc8f16}
+nodoc7f17[label="X=7 Y=17
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f17 -> nodoc7f16
+nodoc7f17 -> nodoc7f18
+nodoc7f17 -> nodoc6f17
+nodoc7f17 -> nodoc8f17
+{rank = same; nodoc7f17 nodoc8f17}
+nodoc7f18[label="X=7 Y=18
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f18 -> nodoc7f17
+nodoc7f18 -> nodoc7f19
+nodoc7f18 -> nodoc6f18
+nodoc7f18 -> nodoc8f18
+{rank = same; nodoc7f18 nodoc8f18}
+nodoc7f19[label="X=7 Y=19
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f19 -> nodoc7f18
+nodoc7f19 -> nodoc7f20
+nodoc7f19 -> nodoc6f19
+nodoc7f19 -> nodoc8f19
+{rank = same; nodoc7f19 nodoc8f19}
+nodoc7f20[label="X=7 Y=20
+",style=filled, fillcolor="#FF4000", group = r7]
+nodoc7f20 -> nodoc7f19
+nodoc7f20 -> nodoc6f20
+nodoc7f20 -> nodoc8f20
+{rank = same; nodoc7f20 nodoc8f20}
+nodoc8f1[label="X=8 Y=1
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f1 -> nodoc8f2
+nodoc8f1 -> nodoc7f1
+nodoc8f1 -> nodoc9f1
+{rank = same; nodoc8f1 nodoc9f1}
+nodoc8f2[label="X=8 Y=2
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f2 -> nodoc8f1
+nodoc8f2 -> nodoc8f3
+nodoc8f2 -> nodoc7f2
+nodoc8f2 -> nodoc9f2
+{rank = same; nodoc8f2 nodoc9f2}
+nodoc8f3[label="X=8 Y=3
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f3 -> nodoc8f2
+nodoc8f3 -> nodoc8f4
+nodoc8f3 -> nodoc7f3
+nodoc8f3 -> nodoc9f3
+{rank = same; nodoc8f3 nodoc9f3}
+nodoc8f4[label="X=8 Y=4
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f4 -> nodoc8f3
+nodoc8f4 -> nodoc8f5
+nodoc8f4 -> nodoc7f4
+nodoc8f4 -> nodoc9f4
+{rank = same; nodoc8f4 nodoc9f4}
+nodoc8f5[label="X=8 Y=5
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f5 -> nodoc8f4
+nodoc8f5 -> nodoc8f6
+nodoc8f5 -> nodoc7f5
+nodoc8f5 -> nodoc9f5
+{rank = same; nodoc8f5 nodoc9f5}
+nodoc8f6[label="X=8 Y=6
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f6 -> nodoc8f5
+nodoc8f6 -> nodoc8f7
+nodoc8f6 -> nodoc7f6
+nodoc8f6 -> nodoc9f6
+{rank = same; nodoc8f6 nodoc9f6}
+nodoc8f7[label="X=8 Y=7
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f7 -> nodoc8f6
+nodoc8f7 -> nodoc8f8
+nodoc8f7 -> nodoc7f7
+nodoc8f7 -> nodoc9f7
+{rank = same; nodoc8f7 nodoc9f7}
+nodoc8f8[label="X=8 Y=8
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f8 -> nodoc8f7
+nodoc8f8 -> nodoc8f9
+nodoc8f8 -> nodoc7f8
+nodoc8f8 -> nodoc9f8
+{rank = same; nodoc8f8 nodoc9f8}
+nodoc8f9[label="X=8 Y=9
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f9 -> nodoc8f8
+nodoc8f9 -> nodoc8f10
+nodoc8f9 -> nodoc7f9
+nodoc8f9 -> nodoc9f9
+{rank = same; nodoc8f9 nodoc9f9}
+nodoc8f10[label="X=8 Y=10
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f10 -> nodoc8f9
+nodoc8f10 -> nodoc8f11
+nodoc8f10 -> nodoc7f10
+nodoc8f10 -> nodoc9f10
+{rank = same; nodoc8f10 nodoc9f10}
+nodoc8f11[label="X=8 Y=11
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f11 -> nodoc8f10
+nodoc8f11 -> nodoc8f12
+nodoc8f11 -> nodoc7f11
+nodoc8f11 -> nodoc9f11
+{rank = same; nodoc8f11 nodoc9f11}
+nodoc8f12[label="X=8 Y=12
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f12 -> nodoc8f11
+nodoc8f12 -> nodoc8f13
+nodoc8f12 -> nodoc7f12
+nodoc8f12 -> nodoc9f12
+{rank = same; nodoc8f12 nodoc9f12}
+nodoc8f13[label="X=8 Y=13
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f13 -> nodoc8f12
+nodoc8f13 -> nodoc8f14
+nodoc8f13 -> nodoc7f13
+nodoc8f13 -> nodoc9f13
+{rank = same; nodoc8f13 nodoc9f13}
+nodoc8f14[label="X=8 Y=14
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f14 -> nodoc8f13
+nodoc8f14 -> nodoc8f15
+nodoc8f14 -> nodoc7f14
+nodoc8f14 -> nodoc9f14
+{rank = same; nodoc8f14 nodoc9f14}
+nodoc8f15[label="X=8 Y=15
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f15 -> nodoc8f14
+nodoc8f15 -> nodoc8f16
+nodoc8f15 -> nodoc7f15
+nodoc8f15 -> nodoc9f15
+{rank = same; nodoc8f15 nodoc9f15}
+nodoc8f16[label="X=8 Y=16
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f16 -> nodoc8f15
+nodoc8f16 -> nodoc8f17
+nodoc8f16 -> nodoc7f16
+nodoc8f16 -> nodoc9f16
+{rank = same; nodoc8f16 nodoc9f16}
+nodoc8f17[label="X=8 Y=17
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f17 -> nodoc8f16
+nodoc8f17 -> nodoc8f18
+nodoc8f17 -> nodoc7f17
+nodoc8f17 -> nodoc9f17
+{rank = same; nodoc8f17 nodoc9f17}
+nodoc8f18[label="X=8 Y=18
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f18 -> nodoc8f17
+nodoc8f18 -> nodoc8f19
+nodoc8f18 -> nodoc7f18
+nodoc8f18 -> nodoc9f18
+{rank = same; nodoc8f18 nodoc9f18}
+nodoc8f19[label="X=8 Y=19
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f19 -> nodoc8f18
+nodoc8f19 -> nodoc8f20
+nodoc8f19 -> nodoc7f19
+nodoc8f19 -> nodoc9f19
+{rank = same; nodoc8f19 nodoc9f19}
+nodoc8f20[label="X=8 Y=20
+",style=filled, fillcolor="#FF4000", group = r8]
+nodoc8f20 -> nodoc8f19
+nodoc8f20 -> nodoc7f20
+nodoc8f20 -> nodoc9f20
+{rank = same; nodoc8f20 nodoc9f20}
+nodoc9f1[label="X=9 Y=1
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f1 -> nodoc9f2
+nodoc9f1 -> nodoc8f1
+nodoc9f1 -> nodoc10f1
+{rank = same; nodoc9f1 nodoc10f1}
+nodoc9f2[label="X=9 Y=2
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f2 -> nodoc9f1
+nodoc9f2 -> nodoc9f3
+nodoc9f2 -> nodoc8f2
+nodoc9f2 -> nodoc10f2
+{rank = same; nodoc9f2 nodoc10f2}
+nodoc9f3[label="X=9 Y=3
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f3 -> nodoc9f2
+nodoc9f3 -> nodoc9f4
+nodoc9f3 -> nodoc8f3
+nodoc9f3 -> nodoc10f3
+{rank = same; nodoc9f3 nodoc10f3}
+nodoc9f4[label="X=9 Y=4
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f4 -> nodoc9f3
+nodoc9f4 -> nodoc9f5
+nodoc9f4 -> nodoc8f4
+nodoc9f4 -> nodoc10f4
+{rank = same; nodoc9f4 nodoc10f4}
+nodoc9f5[label="X=9 Y=5
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f5 -> nodoc9f4
+nodoc9f5 -> nodoc9f6
+nodoc9f5 -> nodoc8f5
+nodoc9f5 -> nodoc10f5
+{rank = same; nodoc9f5 nodoc10f5}
+nodoc9f6[label="X=9 Y=6
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f6 -> nodoc9f5
+nodoc9f6 -> nodoc9f7
+nodoc9f6 -> nodoc8f6
+nodoc9f6 -> nodoc10f6
+{rank = same; nodoc9f6 nodoc10f6}
+nodoc9f7[label="X=9 Y=7
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f7 -> nodoc9f6
+nodoc9f7 -> nodoc9f8
+nodoc9f7 -> nodoc8f7
+nodoc9f7 -> nodoc10f7
+{rank = same; nodoc9f7 nodoc10f7}
+nodoc9f8[label="X=9 Y=8
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f8 -> nodoc9f7
+nodoc9f8 -> nodoc9f9
+nodoc9f8 -> nodoc8f8
+nodoc9f8 -> nodoc10f8
+{rank = same; nodoc9f8 nodoc10f8}
+nodoc9f9[label="X=9 Y=9
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f9 -> nodoc9f8
+nodoc9f9 -> nodoc9f10
+nodoc9f9 -> nodoc8f9
+nodoc9f9 -> nodoc10f9
+{rank = same; nodoc9f9 nodoc10f9}
+nodoc9f10[label="X=9 Y=10
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f10 -> nodoc9f9
+nodoc9f10 -> nodoc9f11
+nodoc9f10 -> nodoc8f10
+nodoc9f10 -> nodoc10f10
+{rank = same; nodoc9f10 nodoc10f10}
+nodoc9f11[label="X=9 Y=11
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f11 -> nodoc9f10
+nodoc9f11 -> nodoc9f12
+nodoc9f11 -> nodoc8f11
+nodoc9f11 -> nodoc10f11
+{rank = same; nodoc9f11 nodoc10f11}
+nodoc9f12[label="X=9 Y=12
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f12 -> nodoc9f11
+nodoc9f12 -> nodoc9f13
+nodoc9f12 -> nodoc8f12
+nodoc9f12 -> nodoc10f12
+{rank = same; nodoc9f12 nodoc10f12}
+nodoc9f13[label="X=9 Y=13
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f13 -> nodoc9f12
+nodoc9f13 -> nodoc9f14
+nodoc9f13 -> nodoc8f13
+nodoc9f13 -> nodoc10f13
+{rank = same; nodoc9f13 nodoc10f13}
+nodoc9f14[label="X=9 Y=14
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f14 -> nodoc9f13
+nodoc9f14 -> nodoc9f15
+nodoc9f14 -> nodoc8f14
+nodoc9f14 -> nodoc10f14
+{rank = same; nodoc9f14 nodoc10f14}
+nodoc9f15[label="X=9 Y=15
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f15 -> nodoc9f14
+nodoc9f15 -> nodoc9f16
+nodoc9f15 -> nodoc8f15
+nodoc9f15 -> nodoc10f15
+{rank = same; nodoc9f15 nodoc10f15}
+nodoc9f16[label="X=9 Y=16
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f16 -> nodoc9f15
+nodoc9f16 -> nodoc9f17
+nodoc9f16 -> nodoc8f16
+nodoc9f16 -> nodoc10f16
+{rank = same; nodoc9f16 nodoc10f16}
+nodoc9f17[label="X=9 Y=17
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f17 -> nodoc9f16
+nodoc9f17 -> nodoc9f18
+nodoc9f17 -> nodoc8f17
+nodoc9f17 -> nodoc10f17
+{rank = same; nodoc9f17 nodoc10f17}
+nodoc9f18[label="X=9 Y=18
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f18 -> nodoc9f17
+nodoc9f18 -> nodoc9f19
+nodoc9f18 -> nodoc8f18
+nodoc9f18 -> nodoc10f18
+{rank = same; nodoc9f18 nodoc10f18}
+nodoc9f19[label="X=9 Y=19
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f19 -> nodoc9f18
+nodoc9f19 -> nodoc9f20
+nodoc9f19 -> nodoc8f19
+nodoc9f19 -> nodoc10f19
+{rank = same; nodoc9f19 nodoc10f19}
+nodoc9f20[label="X=9 Y=20
+",style=filled, fillcolor="#FF4000", group = r9]
+nodoc9f20 -> nodoc9f19
+nodoc9f20 -> nodoc8f20
+nodoc9f20 -> nodoc10f20
+{rank = same; nodoc9f20 nodoc10f20}
+nodoc10f1[label="X=10 Y=1
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f1 -> nodoc10f2
+nodoc10f1 -> nodoc9f1
+nodoc10f1 -> nodoc11f1
+{rank = same; nodoc10f1 nodoc11f1}
+nodoc10f2[label="X=10 Y=2
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f2 -> nodoc10f1
+nodoc10f2 -> nodoc10f3
+nodoc10f2 -> nodoc9f2
+nodoc10f2 -> nodoc11f2
+{rank = same; nodoc10f2 nodoc11f2}
+nodoc10f3[label="X=10 Y=3
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f3 -> nodoc10f2
+nodoc10f3 -> nodoc10f4
+nodoc10f3 -> nodoc9f3
+nodoc10f3 -> nodoc11f3
+{rank = same; nodoc10f3 nodoc11f3}
+nodoc10f4[label="X=10 Y=4
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f4 -> nodoc10f3
+nodoc10f4 -> nodoc10f5
+nodoc10f4 -> nodoc9f4
+nodoc10f4 -> nodoc11f4
+{rank = same; nodoc10f4 nodoc11f4}
+nodoc10f5[label="X=10 Y=5
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f5 -> nodoc10f4
+nodoc10f5 -> nodoc10f6
+nodoc10f5 -> nodoc9f5
+nodoc10f5 -> nodoc11f5
+{rank = same; nodoc10f5 nodoc11f5}
+nodoc10f6[label="X=10 Y=6
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f6 -> nodoc10f5
+nodoc10f6 -> nodoc10f7
+nodoc10f6 -> nodoc9f6
+nodoc10f6 -> nodoc11f6
+{rank = same; nodoc10f6 nodoc11f6}
+nodoc10f7[label="X=10 Y=7
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f7 -> nodoc10f6
+nodoc10f7 -> nodoc10f8
+nodoc10f7 -> nodoc9f7
+nodoc10f7 -> nodoc11f7
+{rank = same; nodoc10f7 nodoc11f7}
+nodoc10f8[label="X=10 Y=8
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f8 -> nodoc10f7
+nodoc10f8 -> nodoc10f9
+nodoc10f8 -> nodoc9f8
+nodoc10f8 -> nodoc11f8
+{rank = same; nodoc10f8 nodoc11f8}
+nodoc10f9[label="X=10 Y=9
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f9 -> nodoc10f8
+nodoc10f9 -> nodoc10f10
+nodoc10f9 -> nodoc9f9
+nodoc10f9 -> nodoc11f9
+{rank = same; nodoc10f9 nodoc11f9}
+nodoc10f10[label="X=10 Y=10
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f10 -> nodoc10f9
+nodoc10f10 -> nodoc10f11
+nodoc10f10 -> nodoc9f10
+nodoc10f10 -> nodoc11f10
+{rank = same; nodoc10f10 nodoc11f10}
+nodoc10f11[label="X=10 Y=11
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f11 -> nodoc10f10
+nodoc10f11 -> nodoc10f12
+nodoc10f11 -> nodoc9f11
+nodoc10f11 -> nodoc11f11
+{rank = same; nodoc10f11 nodoc11f11}
+nodoc10f12[label="X=10 Y=12
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f12 -> nodoc10f11
+nodoc10f12 -> nodoc10f13
+nodoc10f12 -> nodoc9f12
+nodoc10f12 -> nodoc11f12
+{rank = same; nodoc10f12 nodoc11f12}
+nodoc10f13[label="X=10 Y=13
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f13 -> nodoc10f12
+nodoc10f13 -> nodoc10f14
+nodoc10f13 -> nodoc9f13
+nodoc10f13 -> nodoc11f13
+{rank = same; nodoc10f13 nodoc11f13}
+nodoc10f14[label="X=10 Y=14
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f14 -> nodoc10f13
+nodoc10f14 -> nodoc10f15
+nodoc10f14 -> nodoc9f14
+nodoc10f14 -> nodoc11f14
+{rank = same; nodoc10f14 nodoc11f14}
+nodoc10f15[label="X=10 Y=15
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f15 -> nodoc10f14
+nodoc10f15 -> nodoc10f16
+nodoc10f15 -> nodoc9f15
+nodoc10f15 -> nodoc11f15
+{rank = same; nodoc10f15 nodoc11f15}
+nodoc10f16[label="X=10 Y=16
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f16 -> nodoc10f15
+nodoc10f16 -> nodoc10f17
+nodoc10f16 -> nodoc9f16
+nodoc10f16 -> nodoc11f16
+{rank = same; nodoc10f16 nodoc11f16}
+nodoc10f17[label="X=10 Y=17
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f17 -> nodoc10f16
+nodoc10f17 -> nodoc10f18
+nodoc10f17 -> nodoc9f17
+nodoc10f17 -> nodoc11f17
+{rank = same; nodoc10f17 nodoc11f17}
+nodoc10f18[label="X=10 Y=18
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f18 -> nodoc10f17
+nodoc10f18 -> nodoc10f19
+nodoc10f18 -> nodoc9f18
+nodoc10f18 -> nodoc11f18
+{rank = same; nodoc10f18 nodoc11f18}
+nodoc10f19[label="X=10 Y=19
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f19 -> nodoc10f18
+nodoc10f19 -> nodoc10f20
+nodoc10f19 -> nodoc9f19
+nodoc10f19 -> nodoc11f19
+{rank = same; nodoc10f19 nodoc11f19}
+nodoc10f20[label="X=10 Y=20
+",style=filled, fillcolor="#FF4000", group = r10]
+nodoc10f20 -> nodoc10f19
+nodoc10f20 -> nodoc9f20
+nodoc10f20 -> nodoc11f20
+{rank = same; nodoc10f20 nodoc11f20}
+nodoc11f1[label="X=11 Y=1
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f1 -> nodoc11f2
+nodoc11f1 -> nodoc10f1
+nodoc11f1 -> nodoc12f1
+{rank = same; nodoc11f1 nodoc12f1}
+nodoc11f2[label="X=11 Y=2
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f2 -> nodoc11f1
+nodoc11f2 -> nodoc11f3
+nodoc11f2 -> nodoc10f2
+nodoc11f2 -> nodoc12f2
+{rank = same; nodoc11f2 nodoc12f2}
+nodoc11f3[label="X=11 Y=3
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f3 -> nodoc11f2
+nodoc11f3 -> nodoc11f4
+nodoc11f3 -> nodoc10f3
+nodoc11f3 -> nodoc12f3
+{rank = same; nodoc11f3 nodoc12f3}
+nodoc11f4[label="X=11 Y=4
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f4 -> nodoc11f3
+nodoc11f4 -> nodoc11f5
+nodoc11f4 -> nodoc10f4
+nodoc11f4 -> nodoc12f4
+{rank = same; nodoc11f4 nodoc12f4}
+nodoc11f5[label="X=11 Y=5
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f5 -> nodoc11f4
+nodoc11f5 -> nodoc11f6
+nodoc11f5 -> nodoc10f5
+nodoc11f5 -> nodoc12f5
+{rank = same; nodoc11f5 nodoc12f5}
+nodoc11f6[label="X=11 Y=6
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f6 -> nodoc11f5
+nodoc11f6 -> nodoc11f7
+nodoc11f6 -> nodoc10f6
+nodoc11f6 -> nodoc12f6
+{rank = same; nodoc11f6 nodoc12f6}
+nodoc11f7[label="X=11 Y=7
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f7 -> nodoc11f6
+nodoc11f7 -> nodoc11f8
+nodoc11f7 -> nodoc10f7
+nodoc11f7 -> nodoc12f7
+{rank = same; nodoc11f7 nodoc12f7}
+nodoc11f8[label="X=11 Y=8
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f8 -> nodoc11f7
+nodoc11f8 -> nodoc11f9
+nodoc11f8 -> nodoc10f8
+nodoc11f8 -> nodoc12f8
+{rank = same; nodoc11f8 nodoc12f8}
+nodoc11f9[label="X=11 Y=9
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f9 -> nodoc11f8
+nodoc11f9 -> nodoc11f10
+nodoc11f9 -> nodoc10f9
+nodoc11f9 -> nodoc12f9
+{rank = same; nodoc11f9 nodoc12f9}
+nodoc11f10[label="X=11 Y=10
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f10 -> nodoc11f9
+nodoc11f10 -> nodoc11f11
+nodoc11f10 -> nodoc10f10
+nodoc11f10 -> nodoc12f10
+{rank = same; nodoc11f10 nodoc12f10}
+nodoc11f11[label="X=11 Y=11
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f11 -> nodoc11f10
+nodoc11f11 -> nodoc11f12
+nodoc11f11 -> nodoc10f11
+nodoc11f11 -> nodoc12f11
+{rank = same; nodoc11f11 nodoc12f11}
+nodoc11f12[label="X=11 Y=12
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f12 -> nodoc11f11
+nodoc11f12 -> nodoc11f13
+nodoc11f12 -> nodoc10f12
+nodoc11f12 -> nodoc12f12
+{rank = same; nodoc11f12 nodoc12f12}
+nodoc11f13[label="X=11 Y=13
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f13 -> nodoc11f12
+nodoc11f13 -> nodoc11f14
+nodoc11f13 -> nodoc10f13
+nodoc11f13 -> nodoc12f13
+{rank = same; nodoc11f13 nodoc12f13}
+nodoc11f14[label="X=11 Y=14
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f14 -> nodoc11f13
+nodoc11f14 -> nodoc11f15
+nodoc11f14 -> nodoc10f14
+nodoc11f14 -> nodoc12f14
+{rank = same; nodoc11f14 nodoc12f14}
+nodoc11f15[label="X=11 Y=15
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f15 -> nodoc11f14
+nodoc11f15 -> nodoc11f16
+nodoc11f15 -> nodoc10f15
+nodoc11f15 -> nodoc12f15
+{rank = same; nodoc11f15 nodoc12f15}
+nodoc11f16[label="X=11 Y=16
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f16 -> nodoc11f15
+nodoc11f16 -> nodoc11f17
+nodoc11f16 -> nodoc10f16
+nodoc11f16 -> nodoc12f16
+{rank = same; nodoc11f16 nodoc12f16}
+nodoc11f17[label="X=11 Y=17
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f17 -> nodoc11f16
+nodoc11f17 -> nodoc11f18
+nodoc11f17 -> nodoc10f17
+nodoc11f17 -> nodoc12f17
+{rank = same; nodoc11f17 nodoc12f17}
+nodoc11f18[label="X=11 Y=18
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f18 -> nodoc11f17
+nodoc11f18 -> nodoc11f19
+nodoc11f18 -> nodoc10f18
+nodoc11f18 -> nodoc12f18
+{rank = same; nodoc11f18 nodoc12f18}
+nodoc11f19[label="X=11 Y=19
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f19 -> nodoc11f18
+nodoc11f19 -> nodoc11f20
+nodoc11f19 -> nodoc10f19
+nodoc11f19 -> nodoc12f19
+{rank = same; nodoc11f19 nodoc12f19}
+nodoc11f20[label="X=11 Y=20
+",style=filled, fillcolor="#FF4000", group = r11]
+nodoc11f20 -> nodoc11f19
+nodoc11f20 -> nodoc10f20
+nodoc11f20 -> nodoc12f20
+{rank = same; nodoc11f20 nodoc12f20}
+nodoc12f1[label="X=12 Y=1
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f1 -> nodoc12f2
+nodoc12f1 -> nodoc11f1
+nodoc12f1 -> nodoc13f1
+{rank = same; nodoc12f1 nodoc13f1}
+nodoc12f2[label="X=12 Y=2
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f2 -> nodoc12f1
+nodoc12f2 -> nodoc12f3
+nodoc12f2 -> nodoc11f2
+nodoc12f2 -> nodoc13f2
+{rank = same; nodoc12f2 nodoc13f2}
+nodoc12f3[label="X=12 Y=3
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f3 -> nodoc12f2
+nodoc12f3 -> nodoc12f4
+nodoc12f3 -> nodoc11f3
+nodoc12f3 -> nodoc13f3
+{rank = same; nodoc12f3 nodoc13f3}
+nodoc12f4[label="X=12 Y=4
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f4 -> nodoc12f3
+nodoc12f4 -> nodoc12f5
+nodoc12f4 -> nodoc11f4
+nodoc12f4 -> nodoc13f4
+{rank = same; nodoc12f4 nodoc13f4}
+nodoc12f5[label="X=12 Y=5
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f5 -> nodoc12f4
+nodoc12f5 -> nodoc12f6
+nodoc12f5 -> nodoc11f5
+nodoc12f5 -> nodoc13f5
+{rank = same; nodoc12f5 nodoc13f5}
+nodoc12f6[label="X=12 Y=6
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f6 -> nodoc12f5
+nodoc12f6 -> nodoc12f7
+nodoc12f6 -> nodoc11f6
+nodoc12f6 -> nodoc13f6
+{rank = same; nodoc12f6 nodoc13f6}
+nodoc12f7[label="X=12 Y=7
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f7 -> nodoc12f6
+nodoc12f7 -> nodoc12f8
+nodoc12f7 -> nodoc11f7
+nodoc12f7 -> nodoc13f7
+{rank = same; nodoc12f7 nodoc13f7}
+nodoc12f8[label="X=12 Y=8
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f8 -> nodoc12f7
+nodoc12f8 -> nodoc12f9
+nodoc12f8 -> nodoc11f8
+nodoc12f8 -> nodoc13f8
+{rank = same; nodoc12f8 nodoc13f8}
+nodoc12f9[label="X=12 Y=9
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f9 -> nodoc12f8
+nodoc12f9 -> nodoc12f10
+nodoc12f9 -> nodoc11f9
+nodoc12f9 -> nodoc13f9
+{rank = same; nodoc12f9 nodoc13f9}
+nodoc12f10[label="X=12 Y=10
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f10 -> nodoc12f9
+nodoc12f10 -> nodoc12f11
+nodoc12f10 -> nodoc11f10
+nodoc12f10 -> nodoc13f10
+{rank = same; nodoc12f10 nodoc13f10}
+nodoc12f11[label="X=12 Y=11
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f11 -> nodoc12f10
+nodoc12f11 -> nodoc12f12
+nodoc12f11 -> nodoc11f11
+nodoc12f11 -> nodoc13f11
+{rank = same; nodoc12f11 nodoc13f11}
+nodoc12f12[label="X=12 Y=12
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f12 -> nodoc12f11
+nodoc12f12 -> nodoc12f13
+nodoc12f12 -> nodoc11f12
+nodoc12f12 -> nodoc13f12
+{rank = same; nodoc12f12 nodoc13f12}
+nodoc12f13[label="X=12 Y=13
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f13 -> nodoc12f12
+nodoc12f13 -> nodoc12f14
+nodoc12f13 -> nodoc11f13
+nodoc12f13 -> nodoc13f13
+{rank = same; nodoc12f13 nodoc13f13}
+nodoc12f14[label="X=12 Y=14
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f14 -> nodoc12f13
+nodoc12f14 -> nodoc12f15
+nodoc12f14 -> nodoc11f14
+nodoc12f14 -> nodoc13f14
+{rank = same; nodoc12f14 nodoc13f14}
+nodoc12f15[label="X=12 Y=15
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f15 -> nodoc12f14
+nodoc12f15 -> nodoc12f16
+nodoc12f15 -> nodoc11f15
+nodoc12f15 -> nodoc13f15
+{rank = same; nodoc12f15 nodoc13f15}
+nodoc12f16[label="X=12 Y=16
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f16 -> nodoc12f15
+nodoc12f16 -> nodoc12f17
+nodoc12f16 -> nodoc11f16
+nodoc12f16 -> nodoc13f16
+{rank = same; nodoc12f16 nodoc13f16}
+nodoc12f17[label="X=12 Y=17
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f17 -> nodoc12f16
+nodoc12f17 -> nodoc12f18
+nodoc12f17 -> nodoc11f17
+nodoc12f17 -> nodoc13f17
+{rank = same; nodoc12f17 nodoc13f17}
+nodoc12f18[label="X=12 Y=18
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f18 -> nodoc12f17
+nodoc12f18 -> nodoc12f19
+nodoc12f18 -> nodoc11f18
+nodoc12f18 -> nodoc13f18
+{rank = same; nodoc12f18 nodoc13f18}
+nodoc12f19[label="X=12 Y=19
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f19 -> nodoc12f18
+nodoc12f19 -> nodoc12f20
+nodoc12f19 -> nodoc11f19
+nodoc12f19 -> nodoc13f19
+{rank = same; nodoc12f19 nodoc13f19}
+nodoc12f20[label="X=12 Y=20
+",style=filled, fillcolor="#FF4000", group = r12]
+nodoc12f20 -> nodoc12f19
+nodoc12f20 -> nodoc11f20
+nodoc12f20 -> nodoc13f20
+{rank = same; nodoc12f20 nodoc13f20}
+nodoc13f1[label="X=13 Y=1
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f1 -> nodoc13f2
+nodoc13f1 -> nodoc12f1
+nodoc13f1 -> nodoc14f1
+{rank = same; nodoc13f1 nodoc14f1}
+nodoc13f2[label="X=13 Y=2
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f2 -> nodoc13f1
+nodoc13f2 -> nodoc13f3
+nodoc13f2 -> nodoc12f2
+nodoc13f2 -> nodoc14f2
+{rank = same; nodoc13f2 nodoc14f2}
+nodoc13f3[label="X=13 Y=3
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f3 -> nodoc13f2
+nodoc13f3 -> nodoc13f4
+nodoc13f3 -> nodoc12f3
+nodoc13f3 -> nodoc14f3
+{rank = same; nodoc13f3 nodoc14f3}
+nodoc13f4[label="X=13 Y=4
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f4 -> nodoc13f3
+nodoc13f4 -> nodoc13f5
+nodoc13f4 -> nodoc12f4
+nodoc13f4 -> nodoc14f4
+{rank = same; nodoc13f4 nodoc14f4}
+nodoc13f5[label="X=13 Y=5
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f5 -> nodoc13f4
+nodoc13f5 -> nodoc13f6
+nodoc13f5 -> nodoc12f5
+nodoc13f5 -> nodoc14f5
+{rank = same; nodoc13f5 nodoc14f5}
+nodoc13f6[label="X=13 Y=6
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f6 -> nodoc13f5
+nodoc13f6 -> nodoc13f7
+nodoc13f6 -> nodoc12f6
+nodoc13f6 -> nodoc14f6
+{rank = same; nodoc13f6 nodoc14f6}
+nodoc13f7[label="X=13 Y=7
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f7 -> nodoc13f6
+nodoc13f7 -> nodoc13f8
+nodoc13f7 -> nodoc12f7
+nodoc13f7 -> nodoc14f7
+{rank = same; nodoc13f7 nodoc14f7}
+nodoc13f8[label="X=13 Y=8
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f8 -> nodoc13f7
+nodoc13f8 -> nodoc13f9
+nodoc13f8 -> nodoc12f8
+nodoc13f8 -> nodoc14f8
+{rank = same; nodoc13f8 nodoc14f8}
+nodoc13f9[label="X=13 Y=9
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f9 -> nodoc13f8
+nodoc13f9 -> nodoc13f10
+nodoc13f9 -> nodoc12f9
+nodoc13f9 -> nodoc14f9
+{rank = same; nodoc13f9 nodoc14f9}
+nodoc13f10[label="X=13 Y=10
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f10 -> nodoc13f9
+nodoc13f10 -> nodoc13f11
+nodoc13f10 -> nodoc12f10
+nodoc13f10 -> nodoc14f10
+{rank = same; nodoc13f10 nodoc14f10}
+nodoc13f11[label="X=13 Y=11
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f11 -> nodoc13f10
+nodoc13f11 -> nodoc13f12
+nodoc13f11 -> nodoc12f11
+nodoc13f11 -> nodoc14f11
+{rank = same; nodoc13f11 nodoc14f11}
+nodoc13f12[label="X=13 Y=12
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f12 -> nodoc13f11
+nodoc13f12 -> nodoc13f13
+nodoc13f12 -> nodoc12f12
+nodoc13f12 -> nodoc14f12
+{rank = same; nodoc13f12 nodoc14f12}
+nodoc13f13[label="X=13 Y=13
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f13 -> nodoc13f12
+nodoc13f13 -> nodoc13f14
+nodoc13f13 -> nodoc12f13
+nodoc13f13 -> nodoc14f13
+{rank = same; nodoc13f13 nodoc14f13}
+nodoc13f14[label="X=13 Y=14
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f14 -> nodoc13f13
+nodoc13f14 -> nodoc13f15
+nodoc13f14 -> nodoc12f14
+nodoc13f14 -> nodoc14f14
+{rank = same; nodoc13f14 nodoc14f14}
+nodoc13f15[label="X=13 Y=15
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f15 -> nodoc13f14
+nodoc13f15 -> nodoc13f16
+nodoc13f15 -> nodoc12f15
+nodoc13f15 -> nodoc14f15
+{rank = same; nodoc13f15 nodoc14f15}
+nodoc13f16[label="X=13 Y=16
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f16 -> nodoc13f15
+nodoc13f16 -> nodoc13f17
+nodoc13f16 -> nodoc12f16
+nodoc13f16 -> nodoc14f16
+{rank = same; nodoc13f16 nodoc14f16}
+nodoc13f17[label="X=13 Y=17
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f17 -> nodoc13f16
+nodoc13f17 -> nodoc13f18
+nodoc13f17 -> nodoc12f17
+nodoc13f17 -> nodoc14f17
+{rank = same; nodoc13f17 nodoc14f17}
+nodoc13f18[label="X=13 Y=18
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f18 -> nodoc13f17
+nodoc13f18 -> nodoc13f19
+nodoc13f18 -> nodoc12f18
+nodoc13f18 -> nodoc14f18
+{rank = same; nodoc13f18 nodoc14f18}
+nodoc13f19[label="X=13 Y=19
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f19 -> nodoc13f18
+nodoc13f19 -> nodoc13f20
+nodoc13f19 -> nodoc12f19
+nodoc13f19 -> nodoc14f19
+{rank = same; nodoc13f19 nodoc14f19}
+nodoc13f20[label="X=13 Y=20
+",style=filled, fillcolor="#FF4000", group = r13]
+nodoc13f20 -> nodoc13f19
+nodoc13f20 -> nodoc12f20
+nodoc13f20 -> nodoc14f20
+{rank = same; nodoc13f20 nodoc14f20}
+nodoc14f1[label="X=14 Y=1
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f1 -> nodoc14f2
+nodoc14f1 -> nodoc13f1
+nodoc14f1 -> nodoc15f1
+{rank = same; nodoc14f1 nodoc15f1}
+nodoc14f2[label="X=14 Y=2
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f2 -> nodoc14f1
+nodoc14f2 -> nodoc14f3
+nodoc14f2 -> nodoc13f2
+nodoc14f2 -> nodoc15f2
+{rank = same; nodoc14f2 nodoc15f2}
+nodoc14f3[label="X=14 Y=3
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f3 -> nodoc14f2
+nodoc14f3 -> nodoc14f4
+nodoc14f3 -> nodoc13f3
+nodoc14f3 -> nodoc15f3
+{rank = same; nodoc14f3 nodoc15f3}
+nodoc14f4[label="X=14 Y=4
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f4 -> nodoc14f3
+nodoc14f4 -> nodoc14f5
+nodoc14f4 -> nodoc13f4
+nodoc14f4 -> nodoc15f4
+{rank = same; nodoc14f4 nodoc15f4}
+nodoc14f5[label="X=14 Y=5
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f5 -> nodoc14f4
+nodoc14f5 -> nodoc14f6
+nodoc14f5 -> nodoc13f5
+nodoc14f5 -> nodoc15f5
+{rank = same; nodoc14f5 nodoc15f5}
+nodoc14f6[label="X=14 Y=6
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f6 -> nodoc14f5
+nodoc14f6 -> nodoc14f7
+nodoc14f6 -> nodoc13f6
+nodoc14f6 -> nodoc15f6
+{rank = same; nodoc14f6 nodoc15f6}
+nodoc14f7[label="X=14 Y=7
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f7 -> nodoc14f6
+nodoc14f7 -> nodoc14f8
+nodoc14f7 -> nodoc13f7
+nodoc14f7 -> nodoc15f7
+{rank = same; nodoc14f7 nodoc15f7}
+nodoc14f8[label="X=14 Y=8
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f8 -> nodoc14f7
+nodoc14f8 -> nodoc14f9
+nodoc14f8 -> nodoc13f8
+nodoc14f8 -> nodoc15f8
+{rank = same; nodoc14f8 nodoc15f8}
+nodoc14f9[label="X=14 Y=9
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f9 -> nodoc14f8
+nodoc14f9 -> nodoc14f10
+nodoc14f9 -> nodoc13f9
+nodoc14f9 -> nodoc15f9
+{rank = same; nodoc14f9 nodoc15f9}
+nodoc14f10[label="X=14 Y=10
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f10 -> nodoc14f9
+nodoc14f10 -> nodoc14f11
+nodoc14f10 -> nodoc13f10
+nodoc14f10 -> nodoc15f10
+{rank = same; nodoc14f10 nodoc15f10}
+nodoc14f11[label="X=14 Y=11
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f11 -> nodoc14f10
+nodoc14f11 -> nodoc14f12
+nodoc14f11 -> nodoc13f11
+nodoc14f11 -> nodoc15f11
+{rank = same; nodoc14f11 nodoc15f11}
+nodoc14f12[label="X=14 Y=12
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f12 -> nodoc14f11
+nodoc14f12 -> nodoc14f13
+nodoc14f12 -> nodoc13f12
+nodoc14f12 -> nodoc15f12
+{rank = same; nodoc14f12 nodoc15f12}
+nodoc14f13[label="X=14 Y=13
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f13 -> nodoc14f12
+nodoc14f13 -> nodoc14f14
+nodoc14f13 -> nodoc13f13
+nodoc14f13 -> nodoc15f13
+{rank = same; nodoc14f13 nodoc15f13}
+nodoc14f14[label="X=14 Y=14
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f14 -> nodoc14f13
+nodoc14f14 -> nodoc14f15
+nodoc14f14 -> nodoc13f14
+nodoc14f14 -> nodoc15f14
+{rank = same; nodoc14f14 nodoc15f14}
+nodoc14f15[label="X=14 Y=15
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f15 -> nodoc14f14
+nodoc14f15 -> nodoc14f16
+nodoc14f15 -> nodoc13f15
+nodoc14f15 -> nodoc15f15
+{rank = same; nodoc14f15 nodoc15f15}
+nodoc14f16[label="X=14 Y=16
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f16 -> nodoc14f15
+nodoc14f16 -> nodoc14f17
+nodoc14f16 -> nodoc13f16
+nodoc14f16 -> nodoc15f16
+{rank = same; nodoc14f16 nodoc15f16}
+nodoc14f17[label="X=14 Y=17
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f17 -> nodoc14f16
+nodoc14f17 -> nodoc14f18
+nodoc14f17 -> nodoc13f17
+nodoc14f17 -> nodoc15f17
+{rank = same; nodoc14f17 nodoc15f17}
+nodoc14f18[label="X=14 Y=18
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f18 -> nodoc14f17
+nodoc14f18 -> nodoc14f19
+nodoc14f18 -> nodoc13f18
+nodoc14f18 -> nodoc15f18
+{rank = same; nodoc14f18 nodoc15f18}
+nodoc14f19[label="X=14 Y=19
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f19 -> nodoc14f18
+nodoc14f19 -> nodoc14f20
+nodoc14f19 -> nodoc13f19
+nodoc14f19 -> nodoc15f19
+{rank = same; nodoc14f19 nodoc15f19}
+nodoc14f20[label="X=14 Y=20
+",style=filled, fillcolor="#FF4000", group = r14]
+nodoc14f20 -> nodoc14f19
+nodoc14f20 -> nodoc13f20
+nodoc14f20 -> nodoc15f20
+{rank = same; nodoc14f20 nodoc15f20}
+nodoc15f1[label="X=15 Y=1
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f1 -> nodoc15f2
+nodoc15f1 -> nodoc14f1
+nodoc15f1 -> nodoc16f1
+{rank = same; nodoc15f1 nodoc16f1}
+nodoc15f2[label="X=15 Y=2
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f2 -> nodoc15f1
+nodoc15f2 -> nodoc15f3
+nodoc15f2 -> nodoc14f2
+nodoc15f2 -> nodoc16f2
+{rank = same; nodoc15f2 nodoc16f2}
+nodoc15f3[label="X=15 Y=3
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f3 -> nodoc15f2
+nodoc15f3 -> nodoc15f4
+nodoc15f3 -> nodoc14f3
+nodoc15f3 -> nodoc16f3
+{rank = same; nodoc15f3 nodoc16f3}
+nodoc15f4[label="X=15 Y=4
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f4 -> nodoc15f3
+nodoc15f4 -> nodoc15f5
+nodoc15f4 -> nodoc14f4
+nodoc15f4 -> nodoc16f4
+{rank = same; nodoc15f4 nodoc16f4}
+nodoc15f5[label="X=15 Y=5
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f5 -> nodoc15f4
+nodoc15f5 -> nodoc15f6
+nodoc15f5 -> nodoc14f5
+nodoc15f5 -> nodoc16f5
+{rank = same; nodoc15f5 nodoc16f5}
+nodoc15f6[label="X=15 Y=6
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f6 -> nodoc15f5
+nodoc15f6 -> nodoc15f7
+nodoc15f6 -> nodoc14f6
+nodoc15f6 -> nodoc16f6
+{rank = same; nodoc15f6 nodoc16f6}
+nodoc15f7[label="X=15 Y=7
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f7 -> nodoc15f6
+nodoc15f7 -> nodoc15f8
+nodoc15f7 -> nodoc14f7
+nodoc15f7 -> nodoc16f7
+{rank = same; nodoc15f7 nodoc16f7}
+nodoc15f8[label="X=15 Y=8
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f8 -> nodoc15f7
+nodoc15f8 -> nodoc15f9
+nodoc15f8 -> nodoc14f8
+nodoc15f8 -> nodoc16f8
+{rank = same; nodoc15f8 nodoc16f8}
+nodoc15f9[label="X=15 Y=9
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f9 -> nodoc15f8
+nodoc15f9 -> nodoc15f10
+nodoc15f9 -> nodoc14f9
+nodoc15f9 -> nodoc16f9
+{rank = same; nodoc15f9 nodoc16f9}
+nodoc15f10[label="X=15 Y=10
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f10 -> nodoc15f9
+nodoc15f10 -> nodoc15f11
+nodoc15f10 -> nodoc14f10
+nodoc15f10 -> nodoc16f10
+{rank = same; nodoc15f10 nodoc16f10}
+nodoc15f11[label="X=15 Y=11
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f11 -> nodoc15f10
+nodoc15f11 -> nodoc15f12
+nodoc15f11 -> nodoc14f11
+nodoc15f11 -> nodoc16f11
+{rank = same; nodoc15f11 nodoc16f11}
+nodoc15f12[label="X=15 Y=12
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f12 -> nodoc15f11
+nodoc15f12 -> nodoc15f13
+nodoc15f12 -> nodoc14f12
+nodoc15f12 -> nodoc16f12
+{rank = same; nodoc15f12 nodoc16f12}
+nodoc15f13[label="X=15 Y=13
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f13 -> nodoc15f12
+nodoc15f13 -> nodoc15f14
+nodoc15f13 -> nodoc14f13
+nodoc15f13 -> nodoc16f13
+{rank = same; nodoc15f13 nodoc16f13}
+nodoc15f14[label="X=15 Y=14
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f14 -> nodoc15f13
+nodoc15f14 -> nodoc15f15
+nodoc15f14 -> nodoc14f14
+nodoc15f14 -> nodoc16f14
+{rank = same; nodoc15f14 nodoc16f14}
+nodoc15f15[label="X=15 Y=15
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f15 -> nodoc15f14
+nodoc15f15 -> nodoc15f16
+nodoc15f15 -> nodoc14f15
+nodoc15f15 -> nodoc16f15
+{rank = same; nodoc15f15 nodoc16f15}
+nodoc15f16[label="X=15 Y=16
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f16 -> nodoc15f15
+nodoc15f16 -> nodoc15f17
+nodoc15f16 -> nodoc14f16
+nodoc15f16 -> nodoc16f16
+{rank = same; nodoc15f16 nodoc16f16}
+nodoc15f17[label="X=15 Y=17
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f17 -> nodoc15f16
+nodoc15f17 -> nodoc15f18
+nodoc15f17 -> nodoc14f17
+nodoc15f17 -> nodoc16f17
+{rank = same; nodoc15f17 nodoc16f17}
+nodoc15f18[label="X=15 Y=18
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f18 -> nodoc15f17
+nodoc15f18 -> nodoc15f19
+nodoc15f18 -> nodoc14f18
+nodoc15f18 -> nodoc16f18
+{rank = same; nodoc15f18 nodoc16f18}
+nodoc15f19[label="X=15 Y=19
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f19 -> nodoc15f18
+nodoc15f19 -> nodoc15f20
+nodoc15f19 -> nodoc14f19
+nodoc15f19 -> nodoc16f19
+{rank = same; nodoc15f19 nodoc16f19}
+nodoc15f20[label="X=15 Y=20
+",style=filled, fillcolor="#FF4000", group = r15]
+nodoc15f20 -> nodoc15f19
+nodoc15f20 -> nodoc14f20
+nodoc15f20 -> nodoc16f20
+{rank = same; nodoc15f20 nodoc16f20}
+nodoc16f1[label="X=16 Y=1
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f1 -> nodoc16f2
+nodoc16f1 -> nodoc15f1
+nodoc16f1 -> nodoc17f1
+{rank = same; nodoc16f1 nodoc17f1}
+nodoc16f2[label="X=16 Y=2
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f2 -> nodoc16f1
+nodoc16f2 -> nodoc16f3
+nodoc16f2 -> nodoc15f2
+nodoc16f2 -> nodoc17f2
+{rank = same; nodoc16f2 nodoc17f2}
+nodoc16f3[label="X=16 Y=3
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f3 -> nodoc16f2
+nodoc16f3 -> nodoc16f4
+nodoc16f3 -> nodoc15f3
+nodoc16f3 -> nodoc17f3
+{rank = same; nodoc16f3 nodoc17f3}
+nodoc16f4[label="X=16 Y=4
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f4 -> nodoc16f3
+nodoc16f4 -> nodoc16f5
+nodoc16f4 -> nodoc15f4
+nodoc16f4 -> nodoc17f4
+{rank = same; nodoc16f4 nodoc17f4}
+nodoc16f5[label="X=16 Y=5
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f5 -> nodoc16f4
+nodoc16f5 -> nodoc16f6
+nodoc16f5 -> nodoc15f5
+nodoc16f5 -> nodoc17f5
+{rank = same; nodoc16f5 nodoc17f5}
+nodoc16f6[label="X=16 Y=6
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f6 -> nodoc16f5
+nodoc16f6 -> nodoc16f7
+nodoc16f6 -> nodoc15f6
+nodoc16f6 -> nodoc17f6
+{rank = same; nodoc16f6 nodoc17f6}
+nodoc16f7[label="X=16 Y=7
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f7 -> nodoc16f6
+nodoc16f7 -> nodoc16f8
+nodoc16f7 -> nodoc15f7
+nodoc16f7 -> nodoc17f7
+{rank = same; nodoc16f7 nodoc17f7}
+nodoc16f8[label="X=16 Y=8
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f8 -> nodoc16f7
+nodoc16f8 -> nodoc16f9
+nodoc16f8 -> nodoc15f8
+nodoc16f8 -> nodoc17f8
+{rank = same; nodoc16f8 nodoc17f8}
+nodoc16f9[label="X=16 Y=9
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f9 -> nodoc16f8
+nodoc16f9 -> nodoc16f10
+nodoc16f9 -> nodoc15f9
+nodoc16f9 -> nodoc17f9
+{rank = same; nodoc16f9 nodoc17f9}
+nodoc16f10[label="X=16 Y=10
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f10 -> nodoc16f9
+nodoc16f10 -> nodoc16f11
+nodoc16f10 -> nodoc15f10
+nodoc16f10 -> nodoc17f10
+{rank = same; nodoc16f10 nodoc17f10}
+nodoc16f11[label="X=16 Y=11
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f11 -> nodoc16f10
+nodoc16f11 -> nodoc16f12
+nodoc16f11 -> nodoc15f11
+nodoc16f11 -> nodoc17f11
+{rank = same; nodoc16f11 nodoc17f11}
+nodoc16f12[label="X=16 Y=12
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f12 -> nodoc16f11
+nodoc16f12 -> nodoc16f13
+nodoc16f12 -> nodoc15f12
+nodoc16f12 -> nodoc17f12
+{rank = same; nodoc16f12 nodoc17f12}
+nodoc16f13[label="X=16 Y=13
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f13 -> nodoc16f12
+nodoc16f13 -> nodoc16f14
+nodoc16f13 -> nodoc15f13
+nodoc16f13 -> nodoc17f13
+{rank = same; nodoc16f13 nodoc17f13}
+nodoc16f14[label="X=16 Y=14
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f14 -> nodoc16f13
+nodoc16f14 -> nodoc16f15
+nodoc16f14 -> nodoc15f14
+nodoc16f14 -> nodoc17f14
+{rank = same; nodoc16f14 nodoc17f14}
+nodoc16f15[label="X=16 Y=15
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f15 -> nodoc16f14
+nodoc16f15 -> nodoc16f16
+nodoc16f15 -> nodoc15f15
+nodoc16f15 -> nodoc17f15
+{rank = same; nodoc16f15 nodoc17f15}
+nodoc16f16[label="X=16 Y=16
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f16 -> nodoc16f15
+nodoc16f16 -> nodoc16f17
+nodoc16f16 -> nodoc15f16
+nodoc16f16 -> nodoc17f16
+{rank = same; nodoc16f16 nodoc17f16}
+nodoc16f17[label="X=16 Y=17
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f17 -> nodoc16f16
+nodoc16f17 -> nodoc16f18
+nodoc16f17 -> nodoc15f17
+nodoc16f17 -> nodoc17f17
+{rank = same; nodoc16f17 nodoc17f17}
+nodoc16f18[label="X=16 Y=18
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f18 -> nodoc16f17
+nodoc16f18 -> nodoc16f19
+nodoc16f18 -> nodoc15f18
+nodoc16f18 -> nodoc17f18
+{rank = same; nodoc16f18 nodoc17f18}
+nodoc16f19[label="X=16 Y=19
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f19 -> nodoc16f18
+nodoc16f19 -> nodoc16f20
+nodoc16f19 -> nodoc15f19
+nodoc16f19 -> nodoc17f19
+{rank = same; nodoc16f19 nodoc17f19}
+nodoc16f20[label="X=16 Y=20
+",style=filled, fillcolor="#FF4000", group = r16]
+nodoc16f20 -> nodoc16f19
+nodoc16f20 -> nodoc15f20
+nodoc16f20 -> nodoc17f20
+{rank = same; nodoc16f20 nodoc17f20}
+nodoc17f1[label="X=17 Y=1
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f1 -> nodoc17f2
+nodoc17f1 -> nodoc16f1
+nodoc17f1 -> nodoc18f1
+{rank = same; nodoc17f1 nodoc18f1}
+nodoc17f2[label="X=17 Y=2
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f2 -> nodoc17f1
+nodoc17f2 -> nodoc17f3
+nodoc17f2 -> nodoc16f2
+nodoc17f2 -> nodoc18f2
+{rank = same; nodoc17f2 nodoc18f2}
+nodoc17f3[label="X=17 Y=3
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f3 -> nodoc17f2
+nodoc17f3 -> nodoc17f4
+nodoc17f3 -> nodoc16f3
+nodoc17f3 -> nodoc18f3
+{rank = same; nodoc17f3 nodoc18f3}
+nodoc17f4[label="X=17 Y=4
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f4 -> nodoc17f3
+nodoc17f4 -> nodoc17f5
+nodoc17f4 -> nodoc16f4
+nodoc17f4 -> nodoc18f4
+{rank = same; nodoc17f4 nodoc18f4}
+nodoc17f5[label="X=17 Y=5
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f5 -> nodoc17f4
+nodoc17f5 -> nodoc17f6
+nodoc17f5 -> nodoc16f5
+nodoc17f5 -> nodoc18f5
+{rank = same; nodoc17f5 nodoc18f5}
+nodoc17f6[label="X=17 Y=6
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f6 -> nodoc17f5
+nodoc17f6 -> nodoc17f7
+nodoc17f6 -> nodoc16f6
+nodoc17f6 -> nodoc18f6
+{rank = same; nodoc17f6 nodoc18f6}
+nodoc17f7[label="X=17 Y=7
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f7 -> nodoc17f6
+nodoc17f7 -> nodoc17f8
+nodoc17f7 -> nodoc16f7
+nodoc17f7 -> nodoc18f7
+{rank = same; nodoc17f7 nodoc18f7}
+nodoc17f8[label="X=17 Y=8
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f8 -> nodoc17f7
+nodoc17f8 -> nodoc17f9
+nodoc17f8 -> nodoc16f8
+nodoc17f8 -> nodoc18f8
+{rank = same; nodoc17f8 nodoc18f8}
+nodoc17f9[label="X=17 Y=9
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f9 -> nodoc17f8
+nodoc17f9 -> nodoc17f10
+nodoc17f9 -> nodoc16f9
+nodoc17f9 -> nodoc18f9
+{rank = same; nodoc17f9 nodoc18f9}
+nodoc17f10[label="X=17 Y=10
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f10 -> nodoc17f9
+nodoc17f10 -> nodoc17f11
+nodoc17f10 -> nodoc16f10
+nodoc17f10 -> nodoc18f10
+{rank = same; nodoc17f10 nodoc18f10}
+nodoc17f11[label="X=17 Y=11
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f11 -> nodoc17f10
+nodoc17f11 -> nodoc17f12
+nodoc17f11 -> nodoc16f11
+nodoc17f11 -> nodoc18f11
+{rank = same; nodoc17f11 nodoc18f11}
+nodoc17f12[label="X=17 Y=12
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f12 -> nodoc17f11
+nodoc17f12 -> nodoc17f13
+nodoc17f12 -> nodoc16f12
+nodoc17f12 -> nodoc18f12
+{rank = same; nodoc17f12 nodoc18f12}
+nodoc17f13[label="X=17 Y=13
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f13 -> nodoc17f12
+nodoc17f13 -> nodoc17f14
+nodoc17f13 -> nodoc16f13
+nodoc17f13 -> nodoc18f13
+{rank = same; nodoc17f13 nodoc18f13}
+nodoc17f14[label="X=17 Y=14
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f14 -> nodoc17f13
+nodoc17f14 -> nodoc17f15
+nodoc17f14 -> nodoc16f14
+nodoc17f14 -> nodoc18f14
+{rank = same; nodoc17f14 nodoc18f14}
+nodoc17f15[label="X=17 Y=15
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f15 -> nodoc17f14
+nodoc17f15 -> nodoc17f16
+nodoc17f15 -> nodoc16f15
+nodoc17f15 -> nodoc18f15
+{rank = same; nodoc17f15 nodoc18f15}
+nodoc17f16[label="X=17 Y=16
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f16 -> nodoc17f15
+nodoc17f16 -> nodoc17f17
+nodoc17f16 -> nodoc16f16
+nodoc17f16 -> nodoc18f16
+{rank = same; nodoc17f16 nodoc18f16}
+nodoc17f17[label="X=17 Y=17
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f17 -> nodoc17f16
+nodoc17f17 -> nodoc17f18
+nodoc17f17 -> nodoc16f17
+nodoc17f17 -> nodoc18f17
+{rank = same; nodoc17f17 nodoc18f17}
+nodoc17f18[label="X=17 Y=18
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f18 -> nodoc17f17
+nodoc17f18 -> nodoc17f19
+nodoc17f18 -> nodoc16f18
+nodoc17f18 -> nodoc18f18
+{rank = same; nodoc17f18 nodoc18f18}
+nodoc17f19[label="X=17 Y=19
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f19 -> nodoc17f18
+nodoc17f19 -> nodoc17f20
+nodoc17f19 -> nodoc16f19
+nodoc17f19 -> nodoc18f19
+{rank = same; nodoc17f19 nodoc18f19}
+nodoc17f20[label="X=17 Y=20
+",style=filled, fillcolor="#FF4000", group = r17]
+nodoc17f20 -> nodoc17f19
+nodoc17f20 -> nodoc16f20
+nodoc17f20 -> nodoc18f20
+{rank = same; nodoc17f20 nodoc18f20}
+nodoc18f1[label="X=18 Y=1
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f1 -> nodoc18f2
+nodoc18f1 -> nodoc17f1
+nodoc18f1 -> nodoc19f1
+{rank = same; nodoc18f1 nodoc19f1}
+nodoc18f2[label="X=18 Y=2
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f2 -> nodoc18f1
+nodoc18f2 -> nodoc18f3
+nodoc18f2 -> nodoc17f2
+nodoc18f2 -> nodoc19f2
+{rank = same; nodoc18f2 nodoc19f2}
+nodoc18f3[label="X=18 Y=3
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f3 -> nodoc18f2
+nodoc18f3 -> nodoc18f4
+nodoc18f3 -> nodoc17f3
+nodoc18f3 -> nodoc19f3
+{rank = same; nodoc18f3 nodoc19f3}
+nodoc18f4[label="X=18 Y=4
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f4 -> nodoc18f3
+nodoc18f4 -> nodoc18f5
+nodoc18f4 -> nodoc17f4
+nodoc18f4 -> nodoc19f4
+{rank = same; nodoc18f4 nodoc19f4}
+nodoc18f5[label="X=18 Y=5
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f5 -> nodoc18f4
+nodoc18f5 -> nodoc18f6
+nodoc18f5 -> nodoc17f5
+nodoc18f5 -> nodoc19f5
+{rank = same; nodoc18f5 nodoc19f5}
+nodoc18f6[label="X=18 Y=6
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f6 -> nodoc18f5
+nodoc18f6 -> nodoc18f7
+nodoc18f6 -> nodoc17f6
+nodoc18f6 -> nodoc19f6
+{rank = same; nodoc18f6 nodoc19f6}
+nodoc18f7[label="X=18 Y=7
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f7 -> nodoc18f6
+nodoc18f7 -> nodoc18f8
+nodoc18f7 -> nodoc17f7
+nodoc18f7 -> nodoc19f7
+{rank = same; nodoc18f7 nodoc19f7}
+nodoc18f8[label="X=18 Y=8
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f8 -> nodoc18f7
+nodoc18f8 -> nodoc18f9
+nodoc18f8 -> nodoc17f8
+nodoc18f8 -> nodoc19f8
+{rank = same; nodoc18f8 nodoc19f8}
+nodoc18f9[label="X=18 Y=9
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f9 -> nodoc18f8
+nodoc18f9 -> nodoc18f10
+nodoc18f9 -> nodoc17f9
+nodoc18f9 -> nodoc19f9
+{rank = same; nodoc18f9 nodoc19f9}
+nodoc18f10[label="X=18 Y=10
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f10 -> nodoc18f9
+nodoc18f10 -> nodoc18f11
+nodoc18f10 -> nodoc17f10
+nodoc18f10 -> nodoc19f10
+{rank = same; nodoc18f10 nodoc19f10}
+nodoc18f11[label="X=18 Y=11
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f11 -> nodoc18f10
+nodoc18f11 -> nodoc18f12
+nodoc18f11 -> nodoc17f11
+nodoc18f11 -> nodoc19f11
+{rank = same; nodoc18f11 nodoc19f11}
+nodoc18f12[label="X=18 Y=12
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f12 -> nodoc18f11
+nodoc18f12 -> nodoc18f13
+nodoc18f12 -> nodoc17f12
+nodoc18f12 -> nodoc19f12
+{rank = same; nodoc18f12 nodoc19f12}
+nodoc18f13[label="X=18 Y=13
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f13 -> nodoc18f12
+nodoc18f13 -> nodoc18f14
+nodoc18f13 -> nodoc17f13
+nodoc18f13 -> nodoc19f13
+{rank = same; nodoc18f13 nodoc19f13}
+nodoc18f14[label="X=18 Y=14
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f14 -> nodoc18f13
+nodoc18f14 -> nodoc18f15
+nodoc18f14 -> nodoc17f14
+nodoc18f14 -> nodoc19f14
+{rank = same; nodoc18f14 nodoc19f14}
+nodoc18f15[label="X=18 Y=15
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f15 -> nodoc18f14
+nodoc18f15 -> nodoc18f16
+nodoc18f15 -> nodoc17f15
+nodoc18f15 -> nodoc19f15
+{rank = same; nodoc18f15 nodoc19f15}
+nodoc18f16[label="X=18 Y=16
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f16 -> nodoc18f15
+nodoc18f16 -> nodoc18f17
+nodoc18f16 -> nodoc17f16
+nodoc18f16 -> nodoc19f16
+{rank = same; nodoc18f16 nodoc19f16}
+nodoc18f17[label="X=18 Y=17
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f17 -> nodoc18f16
+nodoc18f17 -> nodoc18f18
+nodoc18f17 -> nodoc17f17
+nodoc18f17 -> nodoc19f17
+{rank = same; nodoc18f17 nodoc19f17}
+nodoc18f18[label="X=18 Y=18
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f18 -> nodoc18f17
+nodoc18f18 -> nodoc18f19
+nodoc18f18 -> nodoc17f18
+nodoc18f18 -> nodoc19f18
+{rank = same; nodoc18f18 nodoc19f18}
+nodoc18f19[label="X=18 Y=19
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f19 -> nodoc18f18
+nodoc18f19 -> nodoc18f20
+nodoc18f19 -> nodoc17f19
+nodoc18f19 -> nodoc19f19
+{rank = same; nodoc18f19 nodoc19f19}
+nodoc18f20[label="X=18 Y=20
+",style=filled, fillcolor="#FF4000", group = r18]
+nodoc18f20 -> nodoc18f19
+nodoc18f20 -> nodoc17f20
+nodoc18f20 -> nodoc19f20
+{rank = same; nodoc18f20 nodoc19f20}
+nodoc19f1[label="X=19 Y=1
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f1 -> nodoc19f2
+nodoc19f1 -> nodoc18f1
+nodoc19f1 -> nodoc20f1
+{rank = same; nodoc19f1 nodoc20f1}
+nodoc19f2[label="X=19 Y=2
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f2 -> nodoc19f1
+nodoc19f2 -> nodoc19f3
+nodoc19f2 -> nodoc18f2
+nodoc19f2 -> nodoc20f2
+{rank = same; nodoc19f2 nodoc20f2}
+nodoc19f3[label="X=19 Y=3
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f3 -> nodoc19f2
+nodoc19f3 -> nodoc19f4
+nodoc19f3 -> nodoc18f3
+nodoc19f3 -> nodoc20f3
+{rank = same; nodoc19f3 nodoc20f3}
+nodoc19f4[label="X=19 Y=4
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f4 -> nodoc19f3
+nodoc19f4 -> nodoc19f5
+nodoc19f4 -> nodoc18f4
+nodoc19f4 -> nodoc20f4
+{rank = same; nodoc19f4 nodoc20f4}
+nodoc19f5[label="X=19 Y=5
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f5 -> nodoc19f4
+nodoc19f5 -> nodoc19f6
+nodoc19f5 -> nodoc18f5
+nodoc19f5 -> nodoc20f5
+{rank = same; nodoc19f5 nodoc20f5}
+nodoc19f6[label="X=19 Y=6
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f6 -> nodoc19f5
+nodoc19f6 -> nodoc19f7
+nodoc19f6 -> nodoc18f6
+nodoc19f6 -> nodoc20f6
+{rank = same; nodoc19f6 nodoc20f6}
+nodoc19f7[label="X=19 Y=7
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f7 -> nodoc19f6
+nodoc19f7 -> nodoc19f8
+nodoc19f7 -> nodoc18f7
+nodoc19f7 -> nodoc20f7
+{rank = same; nodoc19f7 nodoc20f7}
+nodoc19f8[label="X=19 Y=8
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f8 -> nodoc19f7
+nodoc19f8 -> nodoc19f9
+nodoc19f8 -> nodoc18f8
+nodoc19f8 -> nodoc20f8
+{rank = same; nodoc19f8 nodoc20f8}
+nodoc19f9[label="X=19 Y=9
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f9 -> nodoc19f8
+nodoc19f9 -> nodoc19f10
+nodoc19f9 -> nodoc18f9
+nodoc19f9 -> nodoc20f9
+{rank = same; nodoc19f9 nodoc20f9}
+nodoc19f10[label="X=19 Y=10
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f10 -> nodoc19f9
+nodoc19f10 -> nodoc19f11
+nodoc19f10 -> nodoc18f10
+nodoc19f10 -> nodoc20f10
+{rank = same; nodoc19f10 nodoc20f10}
+nodoc19f11[label="X=19 Y=11
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f11 -> nodoc19f10
+nodoc19f11 -> nodoc19f12
+nodoc19f11 -> nodoc18f11
+nodoc19f11 -> nodoc20f11
+{rank = same; nodoc19f11 nodoc20f11}
+nodoc19f12[label="X=19 Y=12
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f12 -> nodoc19f11
+nodoc19f12 -> nodoc19f13
+nodoc19f12 -> nodoc18f12
+nodoc19f12 -> nodoc20f12
+{rank = same; nodoc19f12 nodoc20f12}
+nodoc19f13[label="X=19 Y=13
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f13 -> nodoc19f12
+nodoc19f13 -> nodoc19f14
+nodoc19f13 -> nodoc18f13
+nodoc19f13 -> nodoc20f13
+{rank = same; nodoc19f13 nodoc20f13}
+nodoc19f14[label="X=19 Y=14
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f14 -> nodoc19f13
+nodoc19f14 -> nodoc19f15
+nodoc19f14 -> nodoc18f14
+nodoc19f14 -> nodoc20f14
+{rank = same; nodoc19f14 nodoc20f14}
+nodoc19f15[label="X=19 Y=15
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f15 -> nodoc19f14
+nodoc19f15 -> nodoc19f16
+nodoc19f15 -> nodoc18f15
+nodoc19f15 -> nodoc20f15
+{rank = same; nodoc19f15 nodoc20f15}
+nodoc19f16[label="X=19 Y=16
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f16 -> nodoc19f15
+nodoc19f16 -> nodoc19f17
+nodoc19f16 -> nodoc18f16
+nodoc19f16 -> nodoc20f16
+{rank = same; nodoc19f16 nodoc20f16}
+nodoc19f17[label="X=19 Y=17
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f17 -> nodoc19f16
+nodoc19f17 -> nodoc19f18
+nodoc19f17 -> nodoc18f17
+nodoc19f17 -> nodoc20f17
+{rank = same; nodoc19f17 nodoc20f17}
+nodoc19f18[label="X=19 Y=18
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f18 -> nodoc19f17
+nodoc19f18 -> nodoc19f19
+nodoc19f18 -> nodoc18f18
+nodoc19f18 -> nodoc20f18
+{rank = same; nodoc19f18 nodoc20f18}
+nodoc19f19[label="X=19 Y=19
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f19 -> nodoc19f18
+nodoc19f19 -> nodoc19f20
+nodoc19f19 -> nodoc18f19
+nodoc19f19 -> nodoc20f19
+{rank = same; nodoc19f19 nodoc20f19}
+nodoc19f20[label="X=19 Y=20
+",style=filled, fillcolor="#FF4000", group = r19]
+nodoc19f20 -> nodoc19f19
+nodoc19f20 -> nodoc18f20
+nodoc19f20 -> nodoc20f20
+{rank = same; nodoc19f20 nodoc20f20}
+nodoc20f1[label="X=20 Y=1
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f1 -> nodoc20f2
+nodoc20f1 -> nodoc19f1
+nodoc20f2[label="X=20 Y=2
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f2 -> nodoc20f1
+nodoc20f2 -> nodoc20f3
+nodoc20f2 -> nodoc19f2
+nodoc20f3[label="X=20 Y=3
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f3 -> nodoc20f2
+nodoc20f3 -> nodoc20f4
+nodoc20f3 -> nodoc19f3
+nodoc20f4[label="X=20 Y=4
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f4 -> nodoc20f3
+nodoc20f4 -> nodoc20f5
+nodoc20f4 -> nodoc19f4
+nodoc20f5[label="X=20 Y=5
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f5 -> nodoc20f4
+nodoc20f5 -> nodoc20f6
+nodoc20f5 -> nodoc19f5
+nodoc20f6[label="X=20 Y=6
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f6 -> nodoc20f5
+nodoc20f6 -> nodoc20f7
+nodoc20f6 -> nodoc19f6
+nodoc20f7[label="X=20 Y=7
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f7 -> nodoc20f6
+nodoc20f7 -> nodoc20f8
+nodoc20f7 -> nodoc19f7
+nodoc20f8[label="X=20 Y=8
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f8 -> nodoc20f7
+nodoc20f8 -> nodoc20f9
+nodoc20f8 -> nodoc19f8
+nodoc20f9[label="X=20 Y=9
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f9 -> nodoc20f8
+nodoc20f9 -> nodoc20f10
+nodoc20f9 -> nodoc19f9
+nodoc20f10[label="X=20 Y=10
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f10 -> nodoc20f9
+nodoc20f10 -> nodoc20f11
+nodoc20f10 -> nodoc19f10
+nodoc20f11[label="X=20 Y=11
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f11 -> nodoc20f10
+nodoc20f11 -> nodoc20f12
+nodoc20f11 -> nodoc19f11
+nodoc20f12[label="X=20 Y=12
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f12 -> nodoc20f11
+nodoc20f12 -> nodoc20f13
+nodoc20f12 -> nodoc19f12
+nodoc20f13[label="X=20 Y=13
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f13 -> nodoc20f12
+nodoc20f13 -> nodoc20f14
+nodoc20f13 -> nodoc19f13
+nodoc20f14[label="X=20 Y=14
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f14 -> nodoc20f13
+nodoc20f14 -> nodoc20f15
+nodoc20f14 -> nodoc19f14
+nodoc20f15[label="X=20 Y=15
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f15 -> nodoc20f14
+nodoc20f15 -> nodoc20f16
+nodoc20f15 -> nodoc19f15
+nodoc20f16[label="X=20 Y=16
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f16 -> nodoc20f15
+nodoc20f16 -> nodoc20f17
+nodoc20f16 -> nodoc19f16
+nodoc20f17[label="X=20 Y=17
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f17 -> nodoc20f16
+nodoc20f17 -> nodoc20f18
+nodoc20f17 -> nodoc19f17
+nodoc20f18[label="X=20 Y=18
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f18 -> nodoc20f17
+nodoc20f18 -> nodoc20f19
+nodoc20f18 -> nodoc19f18
+nodoc20f19[label="X=20 Y=19
+",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f19 -> nodoc20f18
+nodoc20f19 -> nodoc20f20
+nodoc20f19 -> nodoc19f19
+nodoc20f20[label="X=20 Y=20
+Puntos X 3",style=filled, fillcolor="#FF4000", group = r20]
+nodoc20f20 -> nodoc20f19
+nodoc20f20 -> nodoc19f20
+}

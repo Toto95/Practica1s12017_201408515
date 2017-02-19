@@ -58,7 +58,8 @@ public class colaFichas {
            aux = aux.siguiente;
        }
        pw.println("}");
-       String cmd = "cmd /c dot -Tpng cola.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\colaFichas.png";
+       pw.close();
+       String cmd = "cmd /c dot -Tpng cola.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\colaFichas.png";
         Process child = Runtime.getRuntime().exec(cmd);
     }
     

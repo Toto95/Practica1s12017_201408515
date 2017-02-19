@@ -49,7 +49,8 @@ public class listaDiccionario {
            aux = aux.siguiente;
        }
        pw.println("}");
-        String cmd = "cmd /c dot -Tpng diccionario.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\diccionario.png";
+       pw.close();
+        String cmd = "cmd /c dot -Tpng diccionario.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\diccionario.png";
         Process child = Runtime.getRuntime().exec(cmd);
     }
 }

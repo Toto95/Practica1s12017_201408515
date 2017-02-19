@@ -81,6 +81,8 @@ public class listaSimple {
        FileWriter fw = new FileWriter("fichas.dot");
        PrintWriter pw = new PrintWriter(fw);
        if(primero==null){
+           
+           System.out.println("No tiene fichas");
            return;
        }
        pw.println("digraph B{");
@@ -95,7 +97,8 @@ public class listaSimple {
            aux = aux.siguiente;
        }
        pw.println("}");
-        String cmd = "cmd /c dot -Tpng fichas.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\fichasUsuario.png";
+       pw.close();
+        String cmd = "cmd /c dot -Tpng fichas.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\fichasUsuario.png";
         Process child = Runtime.getRuntime().exec(cmd);
    }
 }

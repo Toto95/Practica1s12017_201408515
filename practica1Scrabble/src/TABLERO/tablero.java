@@ -36,42 +36,46 @@ public class tablero {
        if(lista.cab==null){
            return;
        }
+       
        pw.println("digraph B{");
        nodoCabeza aux = lista.cab;
+  //     pw.println("nodoAux[label = \"I\",style=filled, fillcolor=\"#FF4000\"] ");
+    //   pw.println("{rank = same; nodoAux nodoc"+aux.lista.primero.x+"f"+aux.lista.primero.y+"}");
+       
        while(aux!=null){
         nodoTablero temp = aux.lista.primero;
         while(temp!=null){
-         pw.println("nodo"+temp.x+temp.y+"[label=\"X="+temp.x+" Y="+temp.y+"\n"+temp.contenido+"\",style=filled, fillcolor=\"#FF4000\"]");
+         pw.println("nodoc"+temp.x+"f"+temp.y+"[label=\"X="+temp.x+" Y="+temp.y+"\n"+temp.contenido+"\",style=filled, fillcolor=\"#FF4000\", group = r"+temp.x+"]");
         if(temp.x ==1){
             if(temp.arriba!=null){
-                pw.println("nodo"+temp.x+temp.y+" -> nodo"+temp.arriba.x+temp.arriba.y);
+                pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+temp.arriba.x+"f"+temp.arriba.y);
             }
             if(temp.abajo!=null){
-                pw.println("nodo"+temp.x+temp.y+" -> nodo"+temp.abajo.x+temp.abajo.y);
+                pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+temp.abajo.x+"f"+temp.abajo.y);
             }
-          pw.println("nodo"+temp.x+temp.y+" -> nodo"+(temp.x + 1)+temp.y);
-          pw.println("{rank = same; "+"nodo"+temp.x+temp.y+" nodo"+(temp.x+1)+temp.y+"}");
+          pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+(temp.x + 1)+"f"+temp.y);
+          pw.println("{rank = same; "+"nodoc"+temp.x+"f"+temp.y+" nodoc"+(temp.x+1)+"f"+temp.y+"}");
           
         }else if(temp.x == tamanio){
             if(temp.arriba!=null){
-                pw.println("nodo"+temp.x+temp.y+" -> nodo"+temp.arriba.x+temp.arriba.y);
+                pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+temp.arriba.x+"f"+temp.arriba.y);
             }
             if(temp.abajo!=null){
-                pw.println("nodo"+temp.x+temp.y+" -> nodo"+temp.abajo.x+temp.abajo.y);
+                pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+temp.abajo.x+"f"+temp.abajo.y);
             }
-          pw.println("nodo"+temp.x+temp.y+" -> nodo"+(temp.x - 1)+temp.y);
+          pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+(temp.x - 1)+"f"+temp.y);
           //pw.println("{rank = same; "+"nodo"+temp.x+temp.y+" nodo"+(temp.x+1)+temp.y+"}");
           
         }else{
             if(temp.arriba!=null){
-                pw.println("nodo"+temp.x+temp.y+" -> nodo"+temp.arriba.x+temp.arriba.y);
+                pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+temp.arriba.x+"f"+temp.arriba.y);
             }
             if(temp.abajo!=null){
-                pw.println("nodo"+temp.x+temp.y+" -> nodo"+temp.abajo.x+temp.abajo.y);
+                pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+temp.abajo.x+"f"+temp.abajo.y);
             }
-            pw.println("nodo"+temp.x+temp.y+" -> nodo"+(temp.x - 1)+temp.y);
-            pw.println("nodo"+temp.x+temp.y+" -> nodo"+(temp.x + 1)+temp.y);
-            pw.println("{rank = same; "+"nodo"+temp.x+temp.y+" nodo"+(temp.x+1)+temp.y+"}");
+            pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+(temp.x - 1)+"f"+temp.y);
+            pw.println("nodoc"+temp.x+"f"+temp.y+" -> nodoc"+(temp.x + 1)+"f"+temp.y);
+            pw.println("{rank = same; "+"nodoc"+temp.x+"f"+temp.y+" nodoc"+(temp.x+1)+"f"+temp.y+"}");
          
         }
         temp = temp.abajo;
@@ -80,7 +84,8 @@ public class tablero {
        }
        
        pw.println("}");
-        String cmd = "cmd /c dot -Tpng tablero.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\tablero.png";
+       pw.close();
+        String cmd = "cmd /c dot -Tpng tablero.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\tablero.png";
         Process child = Runtime.getRuntime().exec(cmd);
     }
 }

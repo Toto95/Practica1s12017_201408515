@@ -1,0 +1,21 @@
+digraph B{
+nodo1431180845 -> nodo1535763188
+{rank = same; nodo1431180845 nodo1535763188}
+nodo1431180845[label="B",style=filled, fillcolor="#FF4000"]
+nodo1535763188 -> nodo1605795165
+{rank = same; nodo1535763188 nodo1605795165}
+nodo1535763188[label="J",style=filled, fillcolor="#FF4000"]
+nodo1605795165 -> nodo448063695
+{rank = same; nodo1605795165 nodo448063695}
+nodo1605795165[label="S",style=filled, fillcolor="#FF4000"]
+nodo448063695 -> nodo1064205002
+{rank = same; nodo448063695 nodo1064205002}
+nodo448063695[label="B",style=filled, fillcolor="#FF4000"]
+nodo1064205002 -> nodo728019345
+{rank = same; nodo1064205002 nodo728019345}
+nodo1064205002[label="F",style=filled, fillcolor="#FF4000"]
+nodo728019345 -> nodo1196719413
+{rank = same; nodo728019345 nodo1196719413}
+nodo728019345[label="N",style=filled, fillcolor="#FF4000"]
+nodo1196719413[label="R",style=filled, fillcolor="#FF4000"]
+}

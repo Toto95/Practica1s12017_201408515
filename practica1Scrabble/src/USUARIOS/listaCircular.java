@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -18,6 +19,11 @@ public class listaCircular {
      public nodoUsuario primero;
      public nodoUsuario ultimo;
      public void agregarUsuario(nodoUsuario n){
+        
+         if(existeUsuario(n.nombre)){
+            JOptionPane.showMessageDialog(null, "EL JUGADOR YA EXISTE");
+            return;
+         }
          if(primero==null){
              n.siguiente = n;
              n.anterior = n;
@@ -36,6 +42,9 @@ public class listaCircular {
      public void graficarCircular() throws IOException{
          File f = new File("usuarios.dot");
          FileWriter fw = new FileWriter("usuarios.dot");
+         if(primero==null){
+             return;
+         }
          PrintWriter pw = new PrintWriter(fw);
          pw.println("digraph B{");
          nodoUsuario aux = primero;
@@ -51,7 +60,7 @@ public class listaCircular {
         pw.println("}");
         pw.close();
         fw.close();
-        String cmd = "cmd /c dot -Tpng usuarios.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\usuarios.png";
+        String cmd = "cmd /c dot -Tpng usuarios.dot > C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\usuarios.png";
         Process child = Runtime.getRuntime().exec(cmd);
         
      }
@@ -61,12 +70,12 @@ public class listaCircular {
          }
          nodoUsuario aux = primero;
          while(aux!=ultimo){
-             if(aux.nombre == nom){
+             if(aux.nombre.equals(nom)){
                  return true;
              }
              aux = aux.siguiente;
          }
-         if(aux.nombre == nom){
+         if(aux.nombre.equals(nom)){
              return true;
          }
          return false;

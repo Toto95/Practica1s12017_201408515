@@ -19,8 +19,6 @@ public class nodoUsuario {
         this.nombre = nombre;
        siguiente = null;
        anterior = null;
-       
-       
        fichas = new listaSimple();
     }
 }

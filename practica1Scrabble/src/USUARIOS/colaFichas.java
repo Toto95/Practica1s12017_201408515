@@ -35,6 +35,7 @@ public class colaFichas {
         }else{
             nodoFicha aux = cabeza;
             cabeza = cabeza.siguiente;
+            System.out.println("Retorno"+aux.letra);
             return aux;
         }
         

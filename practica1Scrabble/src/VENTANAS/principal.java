@@ -7,16 +7,20 @@ package VENTANAS;
 import USUARIOS.*;
 import OTROS.*;
 import TABLERO.*;
+import java.awt.Desktop;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
+import javax.swing.SwingWorker;
 import javax.swing.Timer;
 /**
  *
@@ -25,14 +29,28 @@ import javax.swing.Timer;
 public class principal extends javax.swing.JFrame {
        Runnable r;
 	Thread t=new Thread(r);
+        Runnable r2;
+        Thread t2=new Thread(r2);
         Timer ti = new Timer(5000, new ActionListener(){
-           
+        
+        
 
            @Override
            public void actionPerformed(ActionEvent e) {
-             hilo();
-            t=new Thread(r);
-            t.start();  
+               
+               hilo();
+               t = new Thread(r);
+               t.start();
+                      
+           }
+        });
+        Timer ti2 = new Timer(8000, new ActionListener(){
+
+           @Override
+           public void actionPerformed(ActionEvent e) {
+             
+            t2=new Thread(r2);
+            t2.start();  
            }
         });
     listaCircular usuarios;
@@ -51,13 +69,49 @@ public class principal extends javax.swing.JFrame {
         initComponents();
       llenarCola();
       llenarUsuarios();
-       
+      actualizarFichas();
+      jLabel2.setText(activo.nombre);
       ti.start();
-          
-      
+         
+  
       
     }
-    
+    void actualizarFichas(){
+        nodoFicha aux = activo.fichas.primero;
+        for(int i =0; i<7; i++){
+            if(i==0){
+                this.casilla1.setText(Character.toString(aux.letra));
+                this.jCheckBox1.setText(Character.toString(aux.letra));
+                this.jCheckBox1.setSelected(false);
+            }else if(i==1){
+                this.casilla2.setText(Character.toString(aux.letra));
+                this.jCheckBox2.setText(Character.toString(aux.letra));
+                this.jCheckBox2.setSelected(false);
+            }else if(i==2){
+                this.casilla3.setText(Character.toString(aux.letra));
+                this.jCheckBox3.setText(Character.toString(aux.letra));
+                this.jCheckBox3.setSelected(false);
+            }else if(i==3){
+                this.casilla4.setText(Character.toString(aux.letra));
+                this.jCheckBox4.setText(Character.toString(aux.letra));
+                this.jCheckBox4.setSelected(false);
+            }else if(i==4){
+                this.casilla5.setText(Character.toString(aux.letra));
+                this.jCheckBox5.setText(Character.toString(aux.letra));
+                this.jCheckBox5.setSelected(false);
+            }else if(i==5){
+                this.casilla6.setText(Character.toString(aux.letra));
+                this.jCheckBox6.setText(Character.toString(aux.letra));
+                this.jCheckBox6.setSelected(false);
+            }else if(i==6){
+                this.casilla7.setText(Character.toString(aux.letra));
+                this.jCheckBox7.setText(Character.toString(aux.letra));
+                this.jCheckBox7.setSelected(false);
+            }
+            aux = aux.siguiente;
+        }
+        
+    }
     public void llenarCola(){
         while(caracteres.contadorGeneral>0){
           char c = caracteres.caracterRandom((int)(Math.random()*24)+1);
@@ -72,7 +126,9 @@ public class principal extends javax.swing.JFrame {
             return;
         }
         while(aux!= usuarios.ultimo){
+            
             while(aux.fichas.tamanioLista()<7){
+                System.out.println(aux.fichas.tamanioLista());
                 aux.fichas.agregar(fichas.eliminarDeCola());
             }
             aux = aux.siguiente;
@@ -104,10 +160,33 @@ public class principal extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        casilla1 = new javax.swing.JLabel();
+        casilla2 = new javax.swing.JLabel();
+        casilla3 = new javax.swing.JLabel();
+        casilla4 = new javax.swing.JLabel();
+        casilla5 = new javax.swing.JLabel();
+        casilla6 = new javax.swing.JLabel();
+        casilla7 = new javax.swing.JLabel();
+        btUsuarios = new javax.swing.JButton();
+        btFichas = new javax.swing.JButton();
+        btCola = new javax.swing.JButton();
+        btMatriz = new javax.swing.JButton();
+        btDiccionario = new javax.swing.JButton();
+        jCheckBox1 = new javax.swing.JCheckBox();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jCheckBox3 = new javax.swing.JCheckBox();
+        jCheckBox4 = new javax.swing.JCheckBox();
+        jCheckBox5 = new javax.swing.JCheckBox();
+        jCheckBox6 = new javax.swing.JCheckBox();
+        jCheckBox7 = new javax.swing.JCheckBox();
+        jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        textoDiccionario = new javax.swing.JTextPane();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jPanel1.setAutoscrolls(true);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -117,7 +196,7 @@ public class principal extends javax.swing.JFrame {
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGap(0, 348, Short.MAX_VALUE)
         );
 
         jDesktopPane1.setLayer(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -143,7 +222,7 @@ public class principal extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGap(0, 348, Short.MAX_VALUE)
         );
 
         jDesktopPane2.setLayer(jPanel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -169,7 +248,7 @@ public class principal extends javax.swing.JFrame {
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGap(0, 348, Short.MAX_VALUE)
         );
 
         jDesktopPane3.setLayer(jPanel3, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -195,7 +274,7 @@ public class principal extends javax.swing.JFrame {
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGap(0, 348, Short.MAX_VALUE)
         );
 
         jDesktopPane4.setLayer(jPanel4, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -223,7 +302,7 @@ public class principal extends javax.swing.JFrame {
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 466, Short.MAX_VALUE)
+            .addGap(0, 348, Short.MAX_VALUE)
         );
 
         jDesktopPane5.setLayer(jPanel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -246,17 +325,140 @@ public class principal extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
+        casilla1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        casilla2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        casilla3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        casilla4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        casilla5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        casilla6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        casilla7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
+        btUsuarios.setText("USUARIOS");
+        btUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btUsuariosActionPerformed(evt);
+            }
+        });
+
+        btFichas.setText("FICHAS");
+        btFichas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btFichasActionPerformed(evt);
+            }
+        });
+
+        btCola.setText("COLA FICHAS");
+        btCola.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btColaActionPerformed(evt);
+            }
+        });
+
+        btMatriz.setText("MATRIZ");
+        btMatriz.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btMatrizActionPerformed(evt);
+            }
+        });
+
+        btDiccionario.setText("DICCIONARIO");
+        btDiccionario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btDiccionarioActionPerformed(evt);
+            }
+        });
+
+        jCheckBox1.setText("jCheckBox1");
+
+        jCheckBox2.setText("jCheckBox2");
+
+        jCheckBox3.setText("jCheckBox3");
+
+        jCheckBox4.setText("jCheckBox4");
+
+        jCheckBox5.setText("jCheckBox5");
+
+        jCheckBox6.setText("jCheckBox6");
+
+        jCheckBox7.setText("jCheckBox7");
+
+        jLabel3.setText("CAMBIAR FICHAS");
+
+        jButton1.setText("CAMBIAR");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setText("AGREGAR PALABRA");
+
+        jScrollPane1.setViewportView(textoDiccionario);
+
+        jButton2.setText("AGREGAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(casilla1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(casilla3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(casilla2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(casilla7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
+                .addComponent(casilla4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(casilla5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(casilla6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(369, Short.MAX_VALUE)
+                .addContainerGap(427, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 504, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jCheckBox1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton1)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 504, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btUsuarios)
+                            .addComponent(btMatriz))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btDiccionario)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btFichas)
+                                .addGap(18, 18, 18)
+                                .addComponent(btCola)))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -264,18 +466,177 @@ public class principal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTabbedPane1)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btUsuarios)
+                            .addComponent(btFichas)
+                            .addComponent(btCola))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btMatriz)
+                            .addComponent(btDiccionario))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton2)
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jCheckBox6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jCheckBox7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(casilla1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(casilla2, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(casilla3, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(casilla4, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(casilla5, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(casilla6, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(casilla7, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(21, 21, 21))))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    public void abrirArchivo(String path) throws IOException{
+        File f = new File(path);
+        Desktop.getDesktop().open(f);
+    }
+    private void btUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btUsuariosActionPerformed
+        
+           try {
+               abrirArchivo("C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\usuarios.png");
+           } catch (IOException ex) {
+               Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
+           }
+        
+        
+    }//GEN-LAST:event_btUsuariosActionPerformed
 
+    private void btFichasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFichasActionPerformed
+       
+           try {
+               abrirArchivo("C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\fichasUsuario.png");
+           } catch (IOException ex) {
+               Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
+           }
+        
+    }//GEN-LAST:event_btFichasActionPerformed
+
+    private void btColaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btColaActionPerformed
+           try {
+               abrirArchivo("C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\colaFichas.png");
+           } catch (IOException ex) {
+               Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
+           }
+    }//GEN-LAST:event_btColaActionPerformed
+
+    private void btMatrizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btMatrizActionPerformed
+        try {
+               abrirArchivo("C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\tablero.png");
+           } catch (IOException ex) {
+               Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
+           }
+    }//GEN-LAST:event_btMatrizActionPerformed
+
+    private void btDiccionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btDiccionarioActionPerformed
+       try {
+               abrirArchivo("C:\\Users\\Ottoniel\\Documents\\GitHub\\Practica1s12017_201408515\\practica1Scrabble\\src\\reportes\\diccionario.png");
+           } catch (IOException ex) {
+               Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
+           }
+    }//GEN-LAST:event_btDiccionarioActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        
+        if(this.jCheckBox1.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            System.out.println(this.jCheckBox1.getText().charAt(0));
+            activo.fichas.eliminarDelista(this.jCheckBox1.getText().charAt(0));
+            if(aux!=null){
+                activo.fichas.agregar(aux);
+            }
+            
+        }
+        if(this.jCheckBox2.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            activo.fichas.eliminarDelista(this.jCheckBox2.getText().charAt(0));
+            if(aux!=null){
+                activo.fichas.agregar(aux);
+            }
+           // System.out.println("checkbox 2");
+        }
+        if(this.jCheckBox3.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            activo.fichas.eliminarDelista(this.jCheckBox3.getText().charAt(0));
+            if(aux!=null){
+                activo.fichas.agregar(aux);
+            }
+        }
+        if(this.jCheckBox4.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            activo.fichas.eliminarDelista(this.jCheckBox4.getText().charAt(0));
+            if(aux!=null){
+                activo.fichas.agregar(aux);
+            }
+        }
+        if(this.jCheckBox5.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            activo.fichas.eliminarDelista(this.jCheckBox5.getText().charAt(0));
+            if(aux!=null){
+                activo.fichas.agregar(aux);
+            }
+        }
+        if(this.jCheckBox6.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            activo.fichas.eliminarDelista(this.jCheckBox6.getText().charAt(0));
+            if(aux!=null){
+                activo.fichas.agregar(aux);
+            }
+        }
+        if(this.jCheckBox7.isSelected()){
+            nodoFicha aux = fichas.eliminarDeCola();
+            
+            activo.fichas.eliminarDelista(this.jCheckBox7.getText().charAt(0));
+            if(aux!=null){
+                System.out.println("Se inserta"+aux.letra);
+                activo.fichas.agregar(aux);
+            }
+        }
+        activo = activo.siguiente;
+        this.jLabel2.setText(activo.nombre);
+        actualizarFichas();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        if(!textoDiccionario.getText().equals("")){
+            diccionario.agregarPalabra(textoDiccionario.getText().toString());
+            textoDiccionario.setText("");
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
+    
     /**
      * @param args the command line arguments
      */
@@ -284,11 +645,14 @@ public class principal extends javax.swing.JFrame {
     private class imagen extends javax.swing.JPanel{
         int x, y = 0;
         String reporte;
+       
         public imagen(JPanel panel, String reporte){
-        this.x = panel.getWidth();
+    
+            this.x = panel.getWidth();
         this.y = panel.getHeight();
         this.reporte = reporte;
         this.setSize(x, y);
+       
         }
         @Override
         public void paint(Graphics g){
@@ -304,46 +668,75 @@ public class principal extends javax.swing.JFrame {
       tab.graficar();
       fichas.graficarCola();
       
-      imagen usu = new imagen(this.jPanel1, "usuarios");
-      imagen dicci = new imagen(this.jPanel5,"diccionario");
-      imagen fichas = new imagen(this.jPanel2,"fichasUsuario");
-      imagen col = new imagen(this.jPanel3, "colaFichas");
-      imagen matri = new imagen(this.jPanel4,"tablero");
-      this.jPanel1.add(usu);
-      this.jPanel2.add(fichas);
-      this.jPanel3.add(col);
-      this.jPanel4.add(matri);
-      this.jPanel5.add(dicci);
-      jPanel1.repaint();  
-      jPanel2.repaint();
-      jPanel3.repaint();
-      jPanel4.repaint();
-      jPanel5.repaint();
+      
     }
-    
+   
     void hilo(){
        //System.out.println("Entra al metodo hilo");
         r=new Runnable(){
             @Override
             public void run() {
          //       System.out.println("Entra al void run");
-                try {      
-           //         System.out.println("Entra a t.sleep");
-                    t.sleep(3000);
-                } catch (InterruptedException ex) {
-                    Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
-                }
+               
                 try {
              //       System.out.println("ejecutando hilo");
+                   
                     actualizaReportes();
+                    t.sleep(1000);
+                                        
+                    
+                    
+                    imagen usu = new imagen(jPanel1, "usuarios");
+                    imagen dicci = new imagen(jPanel5,"diccionario");
+                    imagen fichas = new imagen(jPanel2,"fichasUsuario");
+                    imagen col = new imagen(jPanel3, "colaFichas");
+                    imagen matri = new imagen(jPanel4,"tablero");
+                    
+                    jPanel1.add(usu);
+                    jPanel2.add(fichas);
+                    jPanel3.add(col);
+                    jPanel5.add(dicci);
+                    jPanel4.add(matri);
+                    
+                    jPanel1.repaint();  
+                    jPanel2.repaint();
+                    jPanel3.repaint();
+                    jPanel5.repaint();
+                    jPanel4.repaint();
+                   
+                    
                 } catch (IOException ex) {
+                    Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
+                } catch (InterruptedException ex) {
                     Logger.getLogger(principal.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
             
         };
     }
+  
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btCola;
+    private javax.swing.JButton btDiccionario;
+    private javax.swing.JButton btFichas;
+    private javax.swing.JButton btMatriz;
+    private javax.swing.JButton btUsuarios;
+    private javax.swing.JLabel casilla1;
+    private javax.swing.JLabel casilla2;
+    private javax.swing.JLabel casilla3;
+    private javax.swing.JLabel casilla4;
+    private javax.swing.JLabel casilla5;
+    private javax.swing.JLabel casilla6;
+    private javax.swing.JLabel casilla7;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox2;
+    private javax.swing.JCheckBox jCheckBox3;
+    private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JCheckBox jCheckBox5;
+    private javax.swing.JCheckBox jCheckBox6;
+    private javax.swing.JCheckBox jCheckBox7;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JDesktopPane jDesktopPane2;
     private javax.swing.JDesktopPane jDesktopPane3;
@@ -351,11 +744,15 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JDesktopPane jDesktopPane5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTextPane textoDiccionario;
     // End of variables declaration//GEN-END:variables
 }

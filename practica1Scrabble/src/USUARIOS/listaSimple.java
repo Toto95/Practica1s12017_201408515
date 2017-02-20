@@ -18,6 +18,10 @@ import javax.swing.JOptionPane;
 public class listaSimple {
     public nodoFicha primero;
     public nodoFicha ultimo;
+    public listaSimple(){
+        primero = null;
+        ultimo = null;
+    }
    public void agregar(nodoFicha a){
        a.siguiente = null;
        if(primero==null){
@@ -36,7 +40,7 @@ public class listaSimple {
       }
       nodoFicha aux = primero;
       while(aux !=null){
-          if(caracter == aux.letra){
+          if(Character.compare(aux.letra, caracter)==0){
               aux.letra = nuevo;
               break;
           }
@@ -51,11 +55,26 @@ public class listaSimple {
       nodoFicha aux = primero;
       nodoFicha aux2 = primero;
       while(aux!=null){
-          if(aux.letra == caracter){
+          if(Character.compare(aux.letra, caracter)==0){
+              System.out.println("Lo encuentra");
               if(primero == ultimo){
                   primero = ultimo = null;
+                  break;
               }else{
-                  aux2.siguiente = aux.siguiente;
+                  if(aux == primero){
+                      System.out.println("Elimina el primero");
+                      primero = primero.siguiente;
+                      break;
+                  }else if(aux == ultimo){
+                      aux2.siguiente = null;
+                      ultimo = aux2;
+                      
+                  }else{
+                    aux2.siguiente = aux.siguiente;
+                    break;
+                  }
+                  
+                  
               }
           }else{
               aux2 = aux;
@@ -73,8 +92,9 @@ public class listaSimple {
               contador++;
               aux = aux.siguiente;
           }
-          return contador;
+          
       }
+      return contador;
   }
    public void graficarFichas() throws IOException{
        File f = new File("fichas.dot");

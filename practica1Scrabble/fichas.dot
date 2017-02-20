@@ -1,21 +1,21 @@
 digraph B{
-nodo1431180845 -> nodo1535763188
-{rank = same; nodo1431180845 nodo1535763188}
-nodo1431180845[label="B",style=filled, fillcolor="#FF4000"]
-nodo1535763188 -> nodo1605795165
-{rank = same; nodo1535763188 nodo1605795165}
-nodo1535763188[label="J",style=filled, fillcolor="#FF4000"]
-nodo1605795165 -> nodo448063695
-{rank = same; nodo1605795165 nodo448063695}
-nodo1605795165[label="S",style=filled, fillcolor="#FF4000"]
-nodo448063695 -> nodo1064205002
-{rank = same; nodo448063695 nodo1064205002}
-nodo448063695[label="B",style=filled, fillcolor="#FF4000"]
-nodo1064205002 -> nodo728019345
-{rank = same; nodo1064205002 nodo728019345}
-nodo1064205002[label="F",style=filled, fillcolor="#FF4000"]
-nodo728019345 -> nodo1196719413
-{rank = same; nodo728019345 nodo1196719413}
-nodo728019345[label="N",style=filled, fillcolor="#FF4000"]
-nodo1196719413[label="R",style=filled, fillcolor="#FF4000"]
+nodo614947506 -> nodo710979670
+{rank = same; nodo614947506 nodo710979670}
+nodo614947506[label="B",style=filled, fillcolor="#FF4000"]
+nodo710979670 -> nodo777990594
+{rank = same; nodo710979670 nodo777990594}
+nodo710979670[label="D",style=filled, fillcolor="#FF4000"]
+nodo777990594 -> nodo1801304685
+{rank = same; nodo777990594 nodo1801304685}
+nodo777990594[label="P",style=filled, fillcolor="#FF4000"]
+nodo1801304685 -> nodo1974538110
+{rank = same; nodo1801304685 nodo1974538110}
+nodo1801304685[label="Q",style=filled, fillcolor="#FF4000"]
+nodo1974538110 -> nodo1518138270
+{rank = same; nodo1974538110 nodo1518138270}
+nodo1974538110[label="N",style=filled, fillcolor="#FF4000"]
+nodo1518138270 -> nodo226105394
+{rank = same; nodo1518138270 nodo226105394}
+nodo1518138270[label="J",style=filled, fillcolor="#FF4000"]
+nodo226105394[label="I",style=filled, fillcolor="#FF4000"]
 }

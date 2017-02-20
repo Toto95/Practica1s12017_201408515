@@ -1,5 +1,8 @@
 digraph B{
-nodo2056984448 -> nodo2056984448
-{rank = same; nodo2056984448 nodo2056984448}
-nodo2056984448[label="fad",style=filled, fillcolor="#FF4000"]
+nodo192038178 -> nodo1992647117
+{rank = same; nodo192038178 nodo1992647117}
+nodo192038178[label="uno",style=filled, fillcolor="#FF4000"]
+nodo1992647117 -> nodo192038178
+{rank = same; nodo1992647117 nodo192038178}
+nodo1992647117[label="dos",style=filled, fillcolor="#FF4000"]
 }

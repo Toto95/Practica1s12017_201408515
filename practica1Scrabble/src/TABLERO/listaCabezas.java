@@ -40,6 +40,7 @@ public class listaCabezas {
                aux = aux.siguiente;
            }
            if(aux == null){
+               System.out.println("No lo encontro y se sale");
                return;
            }
            aux.lista.modificarContenido(y, contenido);

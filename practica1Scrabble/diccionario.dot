@@ -1,36 +1,42 @@
 digraph B{
-nodo1433899693 -> nodo1178848161
-{rank = same; nodo1433899693 nodo1178848161}
-nodo1433899693[label="hola",style=filled, fillcolor="#FF4000"]
-nodo1178848161 -> nodo1149199685
-{rank = same; nodo1178848161 nodo1149199685}
-nodo1178848161[label="mundo",style=filled, fillcolor="#FF4000"]
-nodo1149199685 -> nodo1822855035
-{rank = same; nodo1149199685 nodo1822855035}
-nodo1149199685[label="como",style=filled, fillcolor="#FF4000"]
-nodo1822855035 -> nodo95263416
-{rank = same; nodo1822855035 nodo95263416}
-nodo1822855035[label="estas",style=filled, fillcolor="#FF4000"]
-nodo95263416 -> nodo1567315823
-{rank = same; nodo95263416 nodo1567315823}
-nodo95263416[label="uno",style=filled, fillcolor="#FF4000"]
-nodo1567315823 -> nodo1644250314
-{rank = same; nodo1567315823 nodo1644250314}
-nodo1567315823[label="dos",style=filled, fillcolor="#FF4000"]
-nodo1644250314 -> nodo981779110
-{rank = same; nodo1644250314 nodo981779110}
-nodo1644250314[label="tres",style=filled, fillcolor="#FF4000"]
-nodo981779110 -> nodo1393944340
-{rank = same; nodo981779110 nodo1393944340}
-nodo981779110[label="universidad",style=filled, fillcolor="#FF4000"]
-nodo1393944340 -> nodo1422000694
-{rank = same; nodo1393944340 nodo1422000694}
-nodo1393944340[label="practica",style=filled, fillcolor="#FF4000"]
-nodo1422000694 -> nodo1015884656
-{rank = same; nodo1422000694 nodo1015884656}
-nodo1422000694[label="primera",style=filled, fillcolor="#FF4000"]
-nodo1015884656 -> nodo536895413
-{rank = same; nodo1015884656 nodo536895413}
-nodo1015884656[label="correo",style=filled, fillcolor="#FF4000"]
-nodo536895413[label="juego",style=filled, fillcolor="#FF4000"]
+nodo900205517 -> nodo542994109
+{rank = same; nodo900205517 nodo542994109}
+nodo900205517[label="hola",style=filled, fillcolor="#FF4000"]
+nodo542994109 -> nodo1962109422
+{rank = same; nodo542994109 nodo1962109422}
+nodo542994109[label="mundo",style=filled, fillcolor="#FF4000"]
+nodo1962109422 -> nodo822101732
+{rank = same; nodo1962109422 nodo822101732}
+nodo1962109422[label="como",style=filled, fillcolor="#FF4000"]
+nodo822101732 -> nodo1149486442
+{rank = same; nodo822101732 nodo1149486442}
+nodo822101732[label="estas",style=filled, fillcolor="#FF4000"]
+nodo1149486442 -> nodo266367937
+{rank = same; nodo1149486442 nodo266367937}
+nodo1149486442[label="uno",style=filled, fillcolor="#FF4000"]
+nodo266367937 -> nodo1614006218
+{rank = same; nodo266367937 nodo1614006218}
+nodo266367937[label="dos",style=filled, fillcolor="#FF4000"]
+nodo1614006218 -> nodo1404537422
+{rank = same; nodo1614006218 nodo1404537422}
+nodo1614006218[label="tres",style=filled, fillcolor="#FF4000"]
+nodo1404537422 -> nodo163954119
+{rank = same; nodo1404537422 nodo163954119}
+nodo1404537422[label="universidad",style=filled, fillcolor="#FF4000"]
+nodo163954119 -> nodo87533893
+{rank = same; nodo163954119 nodo87533893}
+nodo163954119[label="practica",style=filled, fillcolor="#FF4000"]
+nodo87533893 -> nodo2068067262
+{rank = same; nodo87533893 nodo2068067262}
+nodo87533893[label="primera",style=filled, fillcolor="#FF4000"]
+nodo2068067262 -> nodo340665186
+{rank = same; nodo2068067262 nodo340665186}
+nodo2068067262[label="correo",style=filled, fillcolor="#FF4000"]
+nodo340665186 -> nodo1264295258
+{rank = same; nodo340665186 nodo1264295258}
+nodo340665186[label="juego",style=filled, fillcolor="#FF4000"]
+nodo1264295258 -> nodo372239644
+{rank = same; nodo1264295258 nodo372239644}
+nodo1264295258[label="unod",style=filled, fillcolor="#FF4000"]
+nodo372239644[label="'';lk;k[",style=filled, fillcolor="#FF4000"]
 }

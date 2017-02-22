@@ -48,9 +48,9 @@ public class listaSimple {
       }
      
   }
-  public void eliminarDelista(char caracter){
+  public nodoFicha eliminarDelista(char caracter){
       if(primero == null){
-          return;
+          return null;
       }
       nodoFicha aux = primero;
       nodoFicha aux2 = primero;
@@ -58,20 +58,26 @@ public class listaSimple {
           if(Character.compare(aux.letra, caracter)==0){
               System.out.println("Lo encuentra");
               if(primero == ultimo){
+                  nodoFicha tm = primero;
                   primero = ultimo = null;
-                  break;
+                  return tm;
+                  
               }else{
                   if(aux == primero){
-                      System.out.println("Elimina el primero");
+                      nodoFicha tm = primero;
                       primero = primero.siguiente;
-                      break;
+                      return tm;
+                     
                   }else if(aux == ultimo){
+                      nodoFicha tm = aux2.siguiente;
                       aux2.siguiente = null;
                       ultimo = aux2;
+                      return tm;
                       
                   }else{
                     aux2.siguiente = aux.siguiente;
-                    break;
+                    return aux;
+                    
                   }
                   
                   
@@ -81,6 +87,7 @@ public class listaSimple {
               aux = aux.siguiente;
           }
       }
+      return null;
   }
   public int tamanioLista(){
       int contador = 0;

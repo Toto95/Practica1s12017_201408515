@@ -28,6 +28,7 @@ public class agregarJugadores extends javax.swing.JFrame {
         this.d = d;
         initComponents();
         usuarios = new listaCircular();
+        this.jButton2.setEnabled(false);
     }
 
     /**
@@ -104,6 +105,7 @@ public class agregarJugadores extends javax.swing.JFrame {
            nodoUsuario nuevo = new nodoUsuario(this.jTextPane1.getText().toString());
            usuarios.agregarUsuario(nuevo);
            this.jTextPane1.setText("");
+           this.jButton2.setEnabled(true);
         }else{
             JOptionPane.showMessageDialog(null,"LLene el campo de texto");
         }

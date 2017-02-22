@@ -1422,7 +1422,7 @@ nodoc11f9 -> nodoc10f9
 nodoc11f9 -> nodoc12f9
 {rank = same; nodoc11f9 nodoc12f9}
 nodoc11f10[label="X=11 Y=10
-R",style=filled, fillcolor="#FF4000", group = r11]
+",style=filled, fillcolor="#FF4000", group = r11]
 nodoc11f10 -> nodoc11f9
 nodoc11f10 -> nodoc11f11
 nodoc11f10 -> nodoc10f10

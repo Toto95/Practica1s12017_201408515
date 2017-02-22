@@ -18,11 +18,15 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javafx.scene.control.TableColumn;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
 import javax.swing.SwingWorker;
 import javax.swing.Timer;
+import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author Ottoniel
@@ -69,12 +73,13 @@ public class principal extends javax.swing.JFrame {
        caracteres = new manejaCaracteres();
         initComponents();
         llenarTablero();
+        
       llenarCola();
       llenarUsuarios();
       actualizarFichas();
       jLabel2.setText(activo.nombre);
       ti.start();
-         
+      //crearTablero();   
   
       
     }
@@ -187,7 +192,9 @@ public class principal extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         textoDiccionario = new javax.swing.JTextPane();
         jButton2 = new javax.swing.JButton();
-        jPanel6 = new javax.swing.JPanel();
+        panelTab = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
         cuadroX = new javax.swing.JTextField();
         cuadroY = new javax.swing.JTextField();
         cuadroLetra = new javax.swing.JTextField();
@@ -431,15 +438,30 @@ public class principal extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {},
+                {},
+                {},
+                {}
+            },
+            new String [] {
+
+            }
+        ));
+        jScrollPane2.setViewportView(jTable1);
+
+        javax.swing.GroupLayout panelTabLayout = new javax.swing.GroupLayout(panelTab);
+        panelTab.setLayout(panelTabLayout);
+        panelTabLayout.setHorizontalGroup(
+            panelTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelTabLayout.createSequentialGroup()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+        panelTabLayout.setVerticalGroup(
+            panelTabLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 478, Short.MAX_VALUE)
         );
 
         jLabel5.setText("x");
@@ -460,7 +482,7 @@ public class principal extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(panelTab, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 104, Short.MAX_VALUE)
@@ -493,7 +515,7 @@ public class principal extends javax.swing.JFrame {
                         .addComponent(casilla5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(casilla6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 126, Short.MAX_VALUE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 504, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
@@ -555,7 +577,7 @@ public class principal extends javax.swing.JFrame {
                             .addComponent(jCheckBox7)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(jButton1))
-                        .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(panelTab, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -644,8 +666,9 @@ public class principal extends javax.swing.JFrame {
         
         if(this.jCheckBox1.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
-            System.out.println(this.jCheckBox1.getText().charAt(0));
-            activo.fichas.eliminarDelista(this.jCheckBox1.getText().charAt(0));
+            //System.out.println(this.jCheckBox1.getText().charAt(0));
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox1.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
                 activo.fichas.agregar(aux);
             }
@@ -653,7 +676,9 @@ public class principal extends javax.swing.JFrame {
         }
         if(this.jCheckBox2.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
-            activo.fichas.eliminarDelista(this.jCheckBox2.getText().charAt(0));
+            //activo.fichas.eliminarDelista(this.jCheckBox2.getText().charAt(0));
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox2.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
                 activo.fichas.agregar(aux);
             }
@@ -661,28 +686,34 @@ public class principal extends javax.swing.JFrame {
         }
         if(this.jCheckBox3.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
-            activo.fichas.eliminarDelista(this.jCheckBox3.getText().charAt(0));
+            
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox3.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
                 activo.fichas.agregar(aux);
             }
         }
         if(this.jCheckBox4.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
-            activo.fichas.eliminarDelista(this.jCheckBox4.getText().charAt(0));
+            //activo.fichas.eliminarDelista(this.jCheckBox4.getText().charAt(0));
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox4.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
                 activo.fichas.agregar(aux);
             }
         }
         if(this.jCheckBox5.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
-            activo.fichas.eliminarDelista(this.jCheckBox5.getText().charAt(0));
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox5.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
                 activo.fichas.agregar(aux);
             }
         }
         if(this.jCheckBox6.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
-            activo.fichas.eliminarDelista(this.jCheckBox6.getText().charAt(0));
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox6.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
                 activo.fichas.agregar(aux);
             }
@@ -690,9 +721,10 @@ public class principal extends javax.swing.JFrame {
         if(this.jCheckBox7.isSelected()){
             nodoFicha aux = fichas.eliminarDeCola();
             
-            activo.fichas.eliminarDelista(this.jCheckBox7.getText().charAt(0));
+            nodoFicha tm =activo.fichas.eliminarDelista(this.jCheckBox7.getText().charAt(0));
+            fichas.agregar(tm);
             if(aux!=null){
-                System.out.println("Se inserta"+aux.letra);
+                //System.out.println("Se inserta"+aux.letra);
                 activo.fichas.agregar(aux);
             }
         }
@@ -723,7 +755,37 @@ public class principal extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    
+    void crearTablero(){
+        DefaultTableModel modelo = new DefaultTableModel();
+        int contador=0;
+        
+        nodoCabeza aux = tab.lista.cab;
+        while(aux!=null){
+            
+           contador++;
+            
+            aux = aux.siguiente;
+        }
+        aux = tab.lista.cab;
+        String[][] table = new String[contador][contador];
+        while(aux!=null){
+            nodoTablero tmp = aux.lista.primero;
+            modelo.addColumn(aux.posicion);
+            while(tmp!=null){
+                
+                table[aux.posicion-1][tmp.y-1] = tmp.contenido;
+                modelo.setValueAt(tmp.contenido, aux.posicion-1, tmp.y-1);
+                tmp = tmp.abajo;
+            }
+            aux = aux.siguiente;
+        }
+        this.jTable1.setModel(modelo);
+        //JTable tabla = new JTable(null, table);
+        //JScrollPane scroll = new JScrollPane(tabla);
+       
+        panelTab.repaint();
+        
+    }
     
     private class imagen extends javax.swing.JPanel{
         int x, y = 0;
@@ -760,12 +822,12 @@ public class principal extends javax.swing.JFrame {
            while(tmp!=null){
                JLabel nuevo = new JLabel();
                nuevo.setText(Integer.toString(tmp.x));
-               this.jPanel6.add(nuevo);
+               this.panelTab.add(nuevo);
                tmp = tmp.abajo;
            }
            aux = aux.siguiente;
        }
-       this.jPanel6.repaint();
+       this.panelTab.repaint();
    }
     void hilo(){
        //System.out.println("Entra al metodo hilo");
@@ -792,7 +854,12 @@ public class principal extends javax.swing.JFrame {
                     jPanel2.add(fichas);
                     jPanel3.add(col);
                     jPanel5.add(dicci);
-                    jPanel4.add(matri);
+                    try{
+                    jPanel4.add(matri);    
+                    }catch(Exception e){
+                        
+                    }
+                    
                     
                     jPanel1.repaint();  
                     jPanel2.repaint();
@@ -853,9 +920,11 @@ public class principal extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JPanel panelTab;
     private javax.swing.JTextPane textoDiccionario;
     // End of variables declaration//GEN-END:variables
 }
